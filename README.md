@@ -1,3 +1,5 @@
 VLSI and Asic Design Labs 2018
 
-Lab 1: Logical,spice simulations and layout for 1bit full-adder.
+Tools: irsim,ngSpice,Magic
+
+Lab 1: Layout and spice simulation for 1bit full-adder.
