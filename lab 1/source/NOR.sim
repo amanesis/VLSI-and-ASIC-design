@@ -1,0 +1,12 @@
+| units: 30 tech: scmos format: MIT
+p Input1 Vdd a_32_54# 4 20 28 54
+p Input2 a_32_54# Output 4 20 96 54
+n Input1 GND Output 4 10 28 20
+n Input2 Output GND 4 10 96 20
+R GND 21
+C Output GND 6.1
+R Output 24
+C Input2 GND 4.5
+R Input2 176
+C Input1 GND 4.5
+R Input1 176

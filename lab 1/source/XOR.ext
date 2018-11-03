@@ -1,0 +1,45 @@
+timestamp 1540496149
+version 8.0
+tech scmos
+style lambda=0.30
+scale 1000 1000 30
+resistclasses 3100 2500 7500 83 84 41 1980000
+node "Output" 24 6 104 -42 ndiff 640 148 320 72 0 0 1180 256 0 0 0 0 0 0
+node "a_104_n8#" 8 0 104 -8 pdiff 0 0 1280 168 0 0 0 0 0 0 0 0 0 0
+node "a_n44_n40#" 195 13.1776 -44 -40 ndiff 640 148 320 72 436 208 1640 348 0 0 0 0 0 0
+node "a_n44_n6#" 8 0 -44 -6 pdiff 0 0 1280 168 0 0 0 0 0 0 0 0 0 0
+node "a_n44_60#" 20 0 -44 60 ndiff 640 148 0 0 0 0 0 0 0 0 0 0 0 0
+node "GND" 80 37.35 -66 -40 ndiff 1080 336 0 0 0 0 6540 1328 0 0 0 0 0 0
+node "a_96_58#" 301 13.1196 96 58 ndiff 220 64 440 84 692 336 1040 228 0 0 0 0 0 0
+node "a_n44_94#" 155 11.9896 -44 94 pdiff 160 52 1280 168 372 176 1600 340 0 0 0 0 0 0
+node "Vdd" 51 41.484 -66 -6 pdiff 0 0 1840 384 0 0 7632 1496 0 0 0 0 0 0
+node "Input2" 364 8.276 20 -60 p 0 0 0 0 776 396 0 0 0 0 0 0 0 0
+node "Input1" 364 8.276 -48 -60 p 0 0 0 0 776 396 0 0 0 0 0 0 0 0
+cap "Vdd" "Input1" 0.9624
+cap "Vdd" "Input2" 0.9624
+cap "a_n44_94#" "Input2" 0.4812
+cap "Vdd" "a_n44_n40#" 0.5772
+cap "Output" "a_96_58#" 0.4812
+cap "GND" "Input1" 0.9624
+cap "a_96_58#" "Vdd" 0.5292
+cap "GND" "Input2" 0.9624
+cap "a_n44_n40#" "GND" 0.5772
+cap "a_n44_94#" "Vdd" 0.5976
+cap "Output" "GND" 0.112
+cap "a_96_58#" "GND" 0.4812
+cap "a_n44_n40#" "Input2" 0.4812
+cap "a_n44_94#" "GND" 0.128
+fet nfet 168 -42 169 -41 40 28 "Gnd!" "a_96_58#" 8 0 "Output" 10 0 "GND" 10 0
+fet nfet 100 -42 101 -41 40 28 "Gnd!" "a_n44_n40#" 8 0 "GND" 10 0 "Output" 10 0
+fet nfet 20 -40 21 -39 40 28 "Gnd!" "Input2" 8 0 "a_n44_n40#" 10 0 "GND" 10 0
+fet nfet -48 -40 -47 -39 40 28 "Gnd!" "Input1" 8 0 "GND" 10 0 "a_n44_n40#" 10 0
+fet pfet 168 -8 169 -7 80 48 "Vdd!" "a_96_58#" 8 0 "a_104_n8#" 20 0 "Output" 20 0
+fet pfet 100 -8 101 -7 80 48 "Vdd!" "a_n44_n40#" 8 0 "Vdd" 20 0 "a_104_n8#" 20 0
+fet pfet 20 -6 21 -5 80 48 "Vdd!" "Input2" 8 0 "a_n44_n6#" 20 0 "a_n44_n40#" 20 0
+fet pfet -48 -6 -47 -5 80 48 "Vdd!" "Input1" 8 0 "Vdd" 20 0 "a_n44_n6#" 20 0
+fet nfet 92 58 93 59 40 28 "Gnd!" "a_n44_94#" 8 0 "GND" 10 0 "a_96_58#" 10 0
+fet nfet 20 60 21 61 40 28 "Gnd!" "Input2" 8 0 "a_n44_60#" 10 0 "a_n44_94#" 10 0
+fet nfet -48 60 -47 61 40 28 "Gnd!" "Input1" 8 0 "GND" 10 0 "a_n44_60#" 10 0
+fet pfet 92 90 93 91 80 48 "Vdd!" "a_n44_94#" 8 0 "Vdd" 20 0 "a_96_58#" 20 0
+fet pfet 20 94 21 95 80 48 "Vdd!" "Input2" 8 0 "a_n44_94#" 20 0 "Vdd" 20 0
+fet pfet -48 94 -47 95 80 48 "Vdd!" "Input1" 8 0 "Vdd" 20 0 "a_n44_94#" 20 0
