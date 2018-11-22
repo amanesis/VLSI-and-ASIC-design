@@ -4,7 +4,7 @@ Tools: irsim,ngSpice,Magic
 
 Lab 1: Layout and spice simulation for 1bit full-adder.
 
-Lab 2: Layout and spice simulatioon for D-FlipFlop
+Lab 2: Layout and spice simulation for D-FlipFlop
 
 Lab 3:
 
