@@ -1,0 +1,34 @@
+* SPICE3 file created from D_Latch.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 Q gate_1/C gate_1/Input Vdd pfet w=20 l=10
++ ad=920 pd=172 as=1000 ps=180 
+M1001 Q gate_0/C gate_1/Input Gnd nfet w=10 l=10
++ ad=460 pd=132 as=500 ps=140 
+M1002 gate_1/C gate_0/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1760 ps=336 
+M1003 gate_1/C gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=880 ps=256 
+M1004 gate_0/C CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1005 gate_0/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1006 Q Inverter_3/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1007 Q Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1008 Inverter_3/Input gate_1/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1009 Inverter_3/Input gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1010 gate_1/Input gate_0/C D Vdd pfet w=20 l=10
++ ad=0 pd=0 as=520 ps=92 
+M1011 gate_1/Input gate_1/C D Gnd nfet w=10 l=10
++ ad=0 pd=0 as=260 ps=72 
+C0 gate_0/C gnd! 33.9fF
+C1 gate_1/Input gnd! 19.6fF
+C2 Q gnd! 23.0fF
+C3 Vdd gnd! 29.8fF
+C4 Inverter_3/Input gnd! 8.5fF
+C5 gate_1/C gnd! 17.3fF

@@ -1,0 +1,12 @@
+timestamp 1542285287
+version 8.0
+tech scmos
+style lambda=0.30
+scale 1000 1000 30
+resistclasses 3100 2500 7500 83 84 41 1980000
+node "a_6_n36#" 20 2.6692 6 -36 pc 0 0 0 0 260 72 100 40 0 0 0 0 0 0
+node "Output" 11 2.23 16 -24 ndiff 240 68 480 88 0 0 580 136 0 0 0 0 0 0
+node "Input" 12 2.23 -20 -24 ndiff 260 72 520 92 0 0 580 136 0 0 0 0 0 0
+node "C" 27 3.1892 6 6 p 0 0 0 0 360 92 180 56 0 0 0 0 0 0
+fet nfet 6 -24 7 -23 100 40 "Gnd!" "a_6_n36#" 20 0 "Input" 10 0 "Output" 10 0
+fet pfet 6 10 7 11 200 60 "Vdd!" "C" 20 0 "Input" 20 0 "Output" 20 0

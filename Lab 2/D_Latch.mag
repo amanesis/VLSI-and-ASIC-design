@@ -1,0 +1,89 @@
+magic
+tech scmos
+timestamp 1542285809
+<< polysilicon >>
+rect 360 146 370 156
+rect 82 132 92 146
+rect 360 126 370 136
+rect 82 114 92 122
+rect 8 -46 12 -6
+<< metal1 >>
+rect 126 194 136 196
+rect -12 184 62 194
+rect 72 184 300 194
+rect -12 62 -2 184
+rect 202 182 212 184
+rect 290 182 300 184
+rect 44 168 136 178
+rect 44 26 54 168
+rect 166 136 210 146
+rect 258 136 298 146
+rect 346 136 360 146
+rect 92 122 94 132
+rect 126 76 136 92
+rect 126 26 136 66
+rect 54 16 70 26
+rect 118 16 136 26
+rect 166 20 176 136
+rect 202 94 290 104
+rect 342 20 352 136
+rect 166 10 188 20
+rect 260 10 352 20
+rect -12 -26 72 -16
+rect 62 -28 72 -26
+rect 62 -38 188 -28
+rect 220 -44 230 -20
+rect 250 -38 290 -28
+rect 300 -38 318 -28
+<< metal2 >>
+rect 62 72 72 184
+rect 136 66 220 76
+rect 44 -44 54 16
+rect 290 -28 300 94
+rect 198 -38 240 -28
+rect 44 -54 220 -44
+<< polycontact >>
+rect 82 122 92 132
+rect 360 136 370 146
+<< m2contact >>
+rect 62 184 72 194
+rect 62 62 72 72
+rect 126 66 136 76
+rect 44 16 54 26
+rect 290 94 300 104
+rect 220 66 230 76
+rect 188 -38 198 -28
+rect 240 -38 250 -28
+rect 290 -38 300 -28
+rect 220 -54 230 -44
+use gate  gate_0
+timestamp 1542285287
+transform 1 0 120 0 1 128
+box -26 -36 46 50
+use Inverter  Inverter_2
+timestamp 1540453251
+transform 1 0 238 0 1 112
+box -38 -8 20 70
+use Inverter  Inverter_3
+timestamp 1540453251
+transform 1 0 326 0 1 112
+box -38 -8 20 70
+use Inverter  Inverter_0
+timestamp 1540453251
+transform 1 0 24 0 1 -8
+box -38 -8 20 70
+use Inverter  Inverter_1
+timestamp 1540453251
+transform 1 0 98 0 1 -8
+box -38 -8 20 70
+use gate  gate_1
+timestamp 1542285287
+transform 1 0 214 0 1 16
+box -26 -36 46 50
+<< labels >>
+rlabel polysilicon 86 140 86 140 1 D
+rlabel polysilicon 366 152 366 152 7 Q
+rlabel metal1 130 194 130 194 5 Vdd
+rlabel metal1 312 -34 312 -34 1 GND
+rlabel polysilicon 10 -44 10 -44 1 CLK
+<< end >>

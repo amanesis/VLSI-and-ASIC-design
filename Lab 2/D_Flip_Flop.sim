@@ -1,0 +1,69 @@
+| units: 30 tech: scmos format: MIT
+p gate_3/C gate_3/Input Q 10 20 580 66
+n gate_2/C gate_3/Input Q 10 10 580 32
+p gate_2/C Vdd gate_3/C 4 20 442 72
+n gate_2/C GND gate_3/C 4 10 442 40
+p CLK Vdd gate_2/C 4 20 368 72
+n CLK GND gate_2/C 4 10 368 40
+p gate_1/C gate_1/Input gate_2/Input 10 20 150 66
+n gate_0/C gate_1/Input gate_2/Input 10 10 150 32
+p gate_0/C Vdd gate_1/C 4 20 12 72
+n gate_0/C GND gate_1/C 4 10 12 40
+p CLK Vdd gate_0/C 4 20 -62 72
+n CLK GND gate_0/C 4 10 -62 40
+p CLK Vdd CLK 4 20 -160 78
+n CLK GND CLK 4 10 -160 46
+p Inverter_5/Input Vdd Q 4 20 670 192
+n Inverter_5/Input GND Q 4 10 670 160
+p gate_3/Input Vdd Inverter_5/Input 4 20 582 192
+n gate_3/Input GND Inverter_5/Input 4 10 582 160
+p gate_2/C gate_2/Input gate_3/Input 10 20 486 178
+n gate_3/C gate_2/Input gate_3/Input 10 10 486 144
+p Inverter_3/Input Vdd gate_2/Input 4 20 240 192
+n Inverter_3/Input GND gate_2/Input 4 10 240 160
+p gate_1/Input Vdd Inverter_3/Input 4 20 152 192
+n gate_1/Input GND Inverter_3/Input 4 10 152 160
+p gate_0/C gate_0/Input gate_1/Input 10 20 56 178
+n gate_1/C gate_0/Input gate_1/Input 10 10 56 144
+p NAND_0/Output Vdd gate_0/Input 4 20 -124 227
+n NAND_0/Output GND gate_0/Input 4 10 -124 195
+p NAND_0/Input1 Vdd NAND_0/Output 4 20 -271 232
+p D NAND_0/Output Vdd 4 20 -203 232
+n NAND_0/Input1 GND NAND_0/a_n42_n10# 4 10 -271 198
+n D NAND_0/a_n42_n10# NAND_0/Output 4 10 -203 198
+p CLR Vdd NAND_0/Input1 4 20 -377 226
+n CLR GND NAND_0/Input1 4 10 -377 194
+C gate_0/Input Vdd 2.8
+R CLR 130
+R NAND_0/a_n42_n10# 20
+R D 193
+C NAND_0/Input1 GND 12.4
+R NAND_0/Input1 180
+C gate_0/Input GND 11.7
+R gate_0/Input 41
+C NAND_0/Output GND 12.3
+R NAND_0/Output 129
+C gate_0/C GND 34.2
+R gate_0/C 194
+C gate_1/Input GND 19.8
+R gate_1/Input 156
+C Inverter_3/Input GND 8.5
+R Inverter_3/Input 125
+C gate_2/Input GND 32.5
+R gate_2/Input 69
+C gate_2/C GND 34.7
+R gate_2/C 194
+C gate_3/Input GND 19.5
+R gate_3/Input 156
+R GND 187
+C Q GND 23.2
+R Q 63
+C Vdd GND 101.2
+R Vdd 140
+C Inverter_5/Input GND 8.5
+R Inverter_5/Input 125
+C gate_1/C GND 17.3
+R gate_1/C 78
+R CLK 565
+C gate_3/C GND 17.3
+R gate_3/C 78

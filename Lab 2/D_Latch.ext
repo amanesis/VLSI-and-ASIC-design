@@ -1,0 +1,50 @@
+timestamp 1542285809
+version 8.0
+tech scmos
+style lambda=0.30
+scale 1000 1000 30
+resistclasses 3100 2500 7500 83 84 41 1980000
+use gate gate_0 1 0 120 0 1 128
+use Inverter Inverter_2 1 0 238 0 1 112
+use Inverter Inverter_3 1 0 326 0 1 112
+use Inverter Inverter_0 1 0 24 0 1 -8
+use Inverter Inverter_1 1 0 98 0 1 -8
+use gate gate_1 1 0 214 0 1 16
+node "GND" 6 32.7854 -12 -26 m1 0 0 0 0 0 0 3980 856 2040 448 0 0 0 0
+node "m1_118_16#" 2 9.9844 118 16 m1 0 0 0 0 0 0 940 228 1040 228 0 0 0 0
+node "m1_258_136#" 0 2.9 258 136 m1 0 0 0 0 0 0 400 100 0 0 0 0 0 0
+node "m1_166_10#" 2 12.13 166 10 m1 0 0 0 0 0 0 1820 384 0 0 0 0 0 0
+node "m1_44_16#" 5 28.5766 44 16 v 0 0 0 0 0 0 2940 628 2560 532 0 0 0 0
+node "Vdd" 5 34.1772 -12 62 m1 0 0 0 0 0 0 4500 940 1320 284 0 0 0 0
+node "CLK" 75 2.4208 8 -46 p 0 0 0 0 160 88 0 0 0 0 0 0 0 0
+node "D" 24 4.1124 82 114 p 0 0 0 0 320 84 120 44 0 0 0 0 0 0
+node "Q" 24 18.318 360 126 p 0 0 0 0 300 80 2320 492 0 0 0 0 0 0
+cap "GND" "m1_44_16#" 1.9504
+cap "m1_118_16#" "m1_166_10#" 0.824
+cap "GND" "Q" 0.824
+cap "m1_44_16#" "Vdd" 1.4608
+cap "GND" "CLK" 0.4812
+merge "Inverter_3/Output" "gate_1/Output" -0.72 0 0 0 0 0 0 0 -48 0 0 0 0 0 0
+merge "gate_1/Output" "Q"
+merge "gate_0/C" "gate_1/a_6_n36#" -8.695 0 0 0 0 0 0 -1130 -316 0 0 0 0 0 0
+merge "gate_1/a_6_n36#" "Inverter_1/Input"
+merge "Inverter_1/Input" "Inverter_0/Output"
+merge "Inverter_0/Output" "m1_44_16#"
+merge "Inverter_2/Input" "gate_0/Output" -0.78 0 0 0 0 0 0 120 -80 0 0 0 0 0 0
+merge "gate_0/Output" "gate_1/Input"
+merge "gate_1/Input" "m1_166_10#"
+merge "gate_1/C" "gate_0/a_6_n36#" -0.9 0 0 0 0 0 0 0 -60 0 0 0 0 0 0
+merge "gate_0/a_6_n36#" "Inverter_1/Output"
+merge "Inverter_1/Output" "m1_118_16#"
+merge "Inverter_0/Input" "CLK" -0.1008 0 0 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "Inverter_3/GND" "Inverter_2/GND" -8.8215 0 0 0 0 0 0 -423 -375 -180 -130 0 0 0 0
+merge "Inverter_2/GND" "Inverter_1/GND"
+merge "Inverter_1/GND" "Inverter_0/GND"
+merge "Inverter_0/GND" "GND"
+merge "Inverter_3/Vdd" "Inverter_2/Vdd" -7.5675 0 0 0 0 0 0 -915 -291 0 0 0 0 0 0
+merge "Inverter_2/Vdd" "Inverter_1/Vdd"
+merge "Inverter_1/Vdd" "Inverter_0/Vdd"
+merge "Inverter_0/Vdd" "Vdd"
+merge "gate_0/Input" "D" -0.1334 0 0 0 0 0 -9 80 -20 0 0 0 0 0 0
+merge "Inverter_3/Input" "Inverter_2/Output" -0.6 0 0 0 0 0 0 0 -40 0 0 0 0 0 0
+merge "Inverter_2/Output" "m1_258_136#"

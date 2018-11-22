@@ -1,0 +1,208 @@
+magic
+tech scmos
+timestamp 1542291396
+<< error_s >>
+rect -101 222 -100 225
+rect -98 221 -97 222
+rect -98 210 -97 211
+<< polysilicon >>
+rect -204 272 -198 282
+rect -378 252 -372 260
+rect 720 186 730 196
+rect 720 166 730 176
+rect -160 26 -156 40
+rect -62 -6 -58 34
+rect 368 0 372 34
+<< metal1 >>
+rect -398 264 -290 272
+rect -398 256 -386 264
+rect -188 258 -64 268
+rect -188 256 -134 258
+rect -74 234 -64 258
+rect 56 234 66 236
+rect 486 234 496 236
+rect -342 216 -278 226
+rect -82 224 -8 234
+rect 2 224 422 234
+rect 432 224 660 234
+rect -344 210 -338 216
+rect -172 210 -136 220
+rect -396 176 -278 186
+rect -166 182 -142 192
+rect -240 24 -226 182
+rect -82 118 -72 224
+rect 132 222 142 224
+rect 220 222 230 224
+rect -180 108 -72 118
+rect -82 102 -72 108
+rect -26 208 66 218
+rect -124 66 -114 72
+rect -26 66 -16 208
+rect 96 176 140 186
+rect 188 176 228 186
+rect 276 176 290 186
+rect 56 116 66 132
+rect 56 66 66 106
+rect -124 56 -74 66
+rect -16 56 0 66
+rect 48 56 66 66
+rect 96 60 106 176
+rect 132 134 220 144
+rect 272 60 282 176
+rect 348 102 358 224
+rect 562 222 572 224
+rect 650 222 660 224
+rect 404 208 496 218
+rect 96 50 118 60
+rect 190 50 282 60
+rect 404 66 414 208
+rect 526 176 570 186
+rect 618 176 658 186
+rect 706 176 720 186
+rect 486 116 496 132
+rect 486 66 496 106
+rect 414 56 430 66
+rect 478 56 496 66
+rect 526 60 536 176
+rect 562 134 650 144
+rect 702 60 712 176
+rect 526 50 548 60
+rect 620 50 712 60
+rect -180 24 -170 30
+rect -240 14 2 24
+rect -8 12 2 14
+rect -8 2 118 12
+rect 150 -4 160 20
+rect 238 14 432 24
+rect 238 12 248 14
+rect 180 2 220 12
+rect 230 2 248 12
+rect 422 12 432 14
+rect 422 2 548 12
+rect 580 -4 590 20
+rect 610 2 650 12
+rect 660 2 678 12
+<< metal2 >>
+rect -40 242 24 256
+rect -40 222 -28 242
+rect -88 210 -28 222
+rect -8 112 2 224
+rect 14 172 24 242
+rect 290 250 454 260
+rect 290 186 300 250
+rect 66 106 150 116
+rect -26 -4 -16 56
+rect 220 12 230 134
+rect 422 112 432 224
+rect 444 172 454 250
+rect 496 106 580 116
+rect 128 2 170 12
+rect 404 -4 414 56
+rect 650 12 660 134
+rect 558 2 600 12
+rect -26 -14 150 -4
+rect 404 -14 580 -4
+<< polycontact >>
+rect -278 216 -266 226
+rect 720 176 730 186
+<< m2contact >>
+rect -8 224 2 234
+rect 422 224 432 234
+rect -98 210 -88 222
+rect 290 176 300 186
+rect 14 162 24 172
+rect -8 102 2 112
+rect 56 106 66 116
+rect -26 56 -16 66
+rect 220 134 230 144
+rect 150 106 160 116
+rect 444 162 454 172
+rect 422 102 432 112
+rect 486 106 496 116
+rect 404 56 414 66
+rect 650 134 660 144
+rect 580 106 590 116
+rect 118 2 128 12
+rect 170 2 180 12
+rect 220 2 230 12
+rect 548 2 558 12
+rect 150 -14 160 -4
+rect 600 2 610 12
+rect 650 2 660 12
+rect 580 -14 590 -4
+use Inverter  Inverter_10
+timestamp 1540453251
+transform 1 0 -361 0 1 186
+box -38 -8 20 70
+use NAND  NAND_0
+timestamp 1540495306
+transform 1 0 -225 0 1 208
+box -74 -30 60 64
+use Inverter  Inverter_9
+timestamp 1540453251
+transform 1 0 -108 0 1 187
+box -38 -8 20 70
+use gate  gate_0
+timestamp 1542285287
+transform 1 0 50 0 1 168
+box -26 -36 46 50
+use Inverter  Inverter_2
+timestamp 1540453251
+transform 1 0 168 0 1 152
+box -38 -8 20 70
+use Inverter  Inverter_3
+timestamp 1540453251
+transform 1 0 256 0 1 152
+box -38 -8 20 70
+use gate  gate_2
+timestamp 1542285287
+transform 1 0 480 0 1 168
+box -26 -36 46 50
+use Inverter  Inverter_4
+timestamp 1540453251
+transform 1 0 598 0 1 152
+box -38 -8 20 70
+use Inverter  Inverter_5
+timestamp 1540453251
+transform 1 0 686 0 1 152
+box -38 -8 20 70
+use Inverter  Inverter_8
+timestamp 1540453251
+transform 1 0 -144 0 1 38
+box -38 -8 20 70
+use Inverter  Inverter_0
+timestamp 1540453251
+transform 1 0 -46 0 1 32
+box -38 -8 20 70
+use Inverter  Inverter_1
+timestamp 1540453251
+transform 1 0 28 0 1 32
+box -38 -8 20 70
+use gate  gate_1
+timestamp 1542285287
+transform 1 0 144 0 1 56
+box -26 -36 46 50
+use Inverter  Inverter_6
+timestamp 1540453251
+transform 1 0 384 0 1 32
+box -38 -8 20 70
+use Inverter  Inverter_7
+timestamp 1540453251
+transform 1 0 458 0 1 32
+box -38 -8 20 70
+use gate  gate_3
+timestamp 1542285287
+transform 1 0 574 0 1 56
+box -26 -36 46 50
+<< labels >>
+rlabel metal1 60 234 60 234 5 Vdd
+rlabel metal1 242 6 242 6 1 GND
+rlabel polysilicon -60 -4 -60 -4 1 CLK
+rlabel polysilicon 726 192 726 192 7 Q
+rlabel metal1 490 234 490 234 5 Vdd
+rlabel metal1 672 6 672 6 1 GND
+rlabel polysilicon -158 28 -158 28 1 CLK
+rlabel polysilicon 368 0 372 34 1 CLK
+rlabel polysilicon -200 278 -200 278 5 D
+rlabel polysilicon -376 256 -376 256 1 CLR
+<< end >>

@@ -1,0 +1,70 @@
+h Vdd
+l GND
+ana D CLK CLR Q
+l D
+l CLK
+l CLR
+s
+h D
+h CLK
+l CLR
+s
+h D
+l CLK
+l CLR
+s
+h D
+h CLK
+l CLR
+s
+l D
+l CLK
+l CLR
+s
+l D
+h CLK
+l CLR
+s
+h D
+l CLK
+l CLR
+s
+l D
+h CLK
+l CLR
+s
+l D
+l CLK
+l CLR
+s
+h D
+h CLK
+l CLR
+s
+h D
+l CLK
+h CLR
+s
+h D
+h CLK
+h CLR
+s
+l D
+l CLK
+l CLR
+s
+l D
+h CLK
+l CLR
+s
+l D
+l CLK
+h CLR
+s
+l D
+h CLK
+h CLR
+s
+s
+stepsize 2
+s

@@ -1,0 +1,28 @@
+| units: 30 tech: scmos format: MIT
+p gate_1/C gate_1/Input Q 10 20 220 26
+n gate_0/C gate_1/Input Q 10 10 220 -8
+p gate_0/C Vdd gate_1/C 4 20 82 32
+n gate_0/C GND gate_1/C 4 10 82 0
+p CLK Vdd gate_0/C 4 20 8 32
+n CLK GND gate_0/C 4 10 8 0
+p Inverter_3/Input Vdd Q 4 20 310 152
+n Inverter_3/Input GND Q 4 10 310 120
+p gate_1/Input Vdd Inverter_3/Input 4 20 222 152
+n gate_1/Input GND Inverter_3/Input 4 10 222 120
+p gate_0/C D gate_1/Input 10 20 126 138
+n gate_1/C D gate_1/Input 10 10 126 104
+R D 26
+C gate_0/C GND 33.9
+R gate_0/C 194
+C gate_1/Input GND 19.6
+R gate_1/Input 155
+R GND 55
+C Q GND 23.0
+R Q 63
+C Vdd GND 29.8
+R Vdd 40
+C Inverter_3/Input GND 8.5
+R Inverter_3/Input 125
+R CLK 190
+C gate_1/C GND 17.3
+R gate_1/C 78

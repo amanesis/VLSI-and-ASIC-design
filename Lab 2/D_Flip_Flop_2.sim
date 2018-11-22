@@ -1,0 +1,56 @@
+| units: 30 tech: scmos format: MIT
+p CLK gate_3/Input Q 10 20 963 74
+n CLK gate_3/Input Q 10 10 963 40
+p CLK gate_1/Input gate_2/Input 10 20 533 74
+n CLK gate_1/Input gate_2/Input 10 10 533 40
+p Inverter_1/Input Vdd CLK 4 20 395 80
+n Inverter_1/Input GND CLK 4 10 395 48
+p Inverter_5/Input Vdd Q 4 20 1053 200
+n Inverter_5/Input GND Q 4 10 1053 168
+p gate_3/Input Vdd Inverter_5/Input 4 20 965 200
+n gate_3/Input GND Inverter_5/Input 4 10 965 168
+p CLK gate_2/Input gate_3/Input 10 20 869 186
+n CLK gate_2/Input gate_3/Input 10 10 869 152
+p Inverter_3/Input Vdd gate_2/Input 4 20 623 200
+n Inverter_3/Input GND gate_2/Input 4 10 623 168
+p gate_1/Input Vdd Inverter_3/Input 4 20 535 200
+n gate_1/Input GND Inverter_3/Input 4 10 535 168
+p gate_0/C gate_0/Input gate_1/Input 10 20 439 186
+n CLK gate_0/Input gate_1/Input 10 10 439 152
+p NAND_0/Output Vdd gate_0/Input 4 20 259 235
+n NAND_0/Output GND gate_0/Input 4 10 259 203
+p NAND_0/Input1 Vdd NAND_0/Output 4 20 112 240
+p D NAND_0/Output Vdd 4 20 180 240
+n NAND_0/Input1 GND NAND_0/a_n42_n10# 4 10 112 206
+n D NAND_0/a_n42_n10# NAND_0/Output 4 10 180 206
+p CLR Vdd NAND_0/Input1 4 20 6 234
+n CLR GND NAND_0/Input1 4 10 6 202
+R CLR 130
+R NAND_0/a_n42_n10# 20
+R D 193
+C NAND_0/Input1 GND 12.4
+R NAND_0/Input1 180
+C gate_0/Input GND 12.3
+R gate_0/Input 41
+C NAND_0/Output GND 12.3
+R NAND_0/Output 129
+C gate_0/C GND 3.2
+R gate_0/C 27
+C gate_1/Input GND 20.6
+R gate_1/Input 156
+C Inverter_3/Input GND 8.5
+R Inverter_3/Input 125
+C gate_2/Input GND 34.8
+R gate_2/Input 68
+R CLK 355
+C gate_3/Input GND 20.3
+R gate_3/Input 156
+R GND 126
+C Q GND 23.2
+R Q 63
+C Vdd GND 75.6
+R Vdd 96
+C Inverter_5/Input GND 8.5
+R Inverter_5/Input 125
+C Inverter_1/Input GND 4.5
+R Inverter_1/Input 115
