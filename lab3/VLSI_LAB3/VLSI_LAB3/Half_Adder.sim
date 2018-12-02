@@ -1,0 +1,40 @@
+| units: 30 tech: scmos format: MIT
+p Input1 Vdd a_12_258# 4 20 8 258
+p Input2 a_12_258# Vdd 4 20 76 258
+p a_12_258# Vdd Cout 4 20 198 250
+n Input1 GND a_12_224# 4 10 8 224
+n Input2 a_12_224# a_12_258# 4 10 76 224
+n a_12_258# GND Cout 4 10 198 218
+p Input1 Vdd a_12_104# 4 20 8 104
+p Input2 a_12_104# Vdd 4 20 76 104
+p a_12_104# Vdd a_152_68# 4 20 148 100
+n Input1 GND a_12_70# 4 10 8 70
+n Input2 a_12_70# a_12_104# 4 10 76 70
+n a_12_104# GND a_152_68# 4 10 148 68
+p Input1 Vdd a_12_4# 4 20 8 4
+p Input2 a_12_4# a_12_n30# 4 20 76 4
+p a_12_n30# Vdd a_160_2# 4 20 156 2
+p a_152_68# a_160_2# Sum 4 20 224 2
+n Input1 GND a_12_n30# 4 10 8 -30
+n Input2 a_12_n30# GND 4 10 76 -30
+n a_12_n30# GND Sum 4 10 156 -32
+n a_152_68# Sum GND 4 10 224 -32
+C Sum GND 10.0
+R Sum 126
+C a_12_n30# GND 13.8
+R a_12_n30# 195
+R a_12_70# 20
+C a_152_68# GND 13.6
+R a_152_68# 301
+C a_12_104# GND 12.1
+R a_12_104# 155
+R a_12_224# 20
+R GND 111
+C a_12_258# GND 14.8
+R a_12_258# 129
+C Vdd GND 68.5
+R Vdd 85
+C Input2 GND 17.1
+R Input2 653
+C Input1 GND 17.1
+R Input1 653

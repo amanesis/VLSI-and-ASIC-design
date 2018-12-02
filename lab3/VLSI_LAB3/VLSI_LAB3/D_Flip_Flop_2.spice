@@ -1,0 +1,67 @@
+* SPICE3 file created from D_Flip_Flop_2.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 Q Pos Inv0_Q Vdd pfet w=20 l=10
++ ad=920 pd=172 as=1000 ps=180 
+M1001 Q CLK Inv0_Q Gnd nfet w=10 l=10
++ ad=460 pd=132 as=500 ps=140 
+M1002 G_Input CLK GOut Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1003 G_Input Pos GOut Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1004 Pos CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=3760 ps=736 
+M1005 Pos CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=1720 ps=504 
+M1006 Q Inv_Q Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1007 Q Inv_Q GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1008 Inv_Q Inv0_Q Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1009 Inv_Q Inv0_Q GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1010 Inv0_Q CLK G_Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1011 Inv0_Q Pos G_Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1012 G_Input Inverter_3/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1013 G_Input Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1014 Inverter_3/Input GOut Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1015 Inverter_3/Input GOut GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1016 GOut Pos gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1017 GOut CLK gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1018 gate_0/Input Inv_Clr Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1019 gate_0/Input Inv_Clr GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1020 Inv_Clr NAND_0/Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1021 Vdd D Inv_Clr Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1022 NAND_0/a_n42_n10# NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1023 Inv_Clr D NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1024 NAND_0/Input1 CLR Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1025 NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+C0 NAND_0/Input1 gnd! 12.4fF
+C1 gate_0/Input gnd! 11.6fF
+C2 Inv_Clr gnd! 12.5fF
+C3 Pos gnd! 80.4fF
+C4 GOut gnd! 21.4fF
+C5 Inverter_3/Input gnd! 8.5fF
+C6 G_Input gnd! 37.1fF
+C7 Inv0_Q gnd! 20.6fF
+C8 Q gnd! 23.2fF
+C9 Vdd gnd! 75.1fF
+C10 Inv_Q gnd! 9.9fF

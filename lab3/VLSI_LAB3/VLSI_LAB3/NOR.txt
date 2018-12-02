@@ -1,0 +1,15 @@
+h Vdd
+l GND
+ana Input1 Input2 Output Vdd GND
+h Input1
+h Input2
+s
+l Input1
+l Input2
+s
+h Input1
+l Input2
+s
+l Input1
+h Input2
+s

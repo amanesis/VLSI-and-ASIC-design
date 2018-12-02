@@ -1,0 +1,128 @@
+* SPICE3 file created from Mux_D_Flip_Fop.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 Q gate_3/C gate_3/Input Vdd pfet w=20 l=10
++ ad=1340 pd=254 as=1000 ps=180 
+M1001 Q gate_2/C gate_3/Input Gnd nfet w=10 l=10
++ ad=712 pd=198 as=500 ps=140 
+M1002 gate_3/C gate_2/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=6400 ps=1240 
+M1003 gate_3/C gate_2/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=3040 ps=888 
+M1004 gate_2/C CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1005 gate_2/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1006 gate_2/Input gate_1/C gate_1/Input Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1007 gate_2/Input gate_0/C gate_1/Input Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1008 gate_1/C gate_0/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1009 gate_1/C gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1010 gate_0/C Inverter_0/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1011 gate_0/C Inverter_0/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1012 Inverter_0/Input CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1013 Inverter_0/Input CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1014 Q Inverter_5/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1015 Q Inverter_5/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1016 Inverter_5/Input gate_3/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1017 Inverter_5/Input gate_3/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1018 gate_3/Input gate_2/C gate_2/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1019 gate_3/Input gate_3/C gate_2/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1020 gate_2/Input Inverter_3/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1021 gate_2/Input Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1022 Inverter_3/Input gate_1/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1023 Inverter_3/Input gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1024 gate_1/Input gate_0/C gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1025 gate_1/Input gate_1/C gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1026 gate_0/Input NAND_0/Output Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1027 gate_0/Input NAND_0/Output GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1028 NAND_0/Output NAND_0/Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1029 Vdd D NAND_0/Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1030 NAND_0/a_n42_n10# NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1031 NAND_0/Output D NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1032 NAND_0/Input1 CLR Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1033 NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1034 a_n6_312# Ctrl0 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1035 a_176_313# ctrl1 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1036 a_n6_312# Ctrl0 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1037 a_176_313# ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1038 Input1 Ctrl0 a_4_186# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1039 Input1 a_n6_312# a_4_186# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1040 a_4_186# Ctrl0 Input2 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=440 ps=84 
+M1041 a_4_186# a_n6_312# Input2 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=264 ps=68 
+M1042 a_4_186# ctrl1 D Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1043 a_4_186# a_176_313# D Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1044 D ctrl1 a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1045 D a_176_313# a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1046 Input3 Ctrl0 a_4_29# Gnd nfet w=12 l=4
++ ad=276 pd=70 as=0 ps=0 
+M1047 Input3 a_n6_312# a_4_29# Vdd pfet w=20 l=4
++ ad=460 pd=86 as=0 ps=0 
+M1048 a_4_29# Ctrl0 Q Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1049 a_4_29# a_n6_312# Q Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+C0 gate_0/Input Vdd 2.8fF
+C1 a_4_29# gnd! 24.2fF
+C2 Input3 gnd! 5.9fF
+C3 Input2 gnd! 6.2fF
+C4 a_4_186# gnd! 20.5fF
+C5 Input1 gnd! 6.0fF
+C6 a_176_313# gnd! 18.7fF
+C7 a_n6_312# gnd! 29.3fF
+C8 ctrl1 gnd! 13.2fF
+C9 NAND_0/Input1 gnd! 10.8fF
+C10 Vdd gnd! 124.1fF
+C11 NAND_0/Output gnd! 10.2fF
+C12 gate_0/Input gnd! 13.0fF
+C13 gate_0/C gnd! 41.0fF
+C14 gate_1/Input gnd! 19.8fF
+C15 Inverter_3/Input gnd! 8.5fF
+C16 gate_2/Input gnd! 27.5fF
+C17 gate_2/C gnd! 40.4fF
+C18 gate_3/Input gnd! 19.5fF
+C19 Q gnd! 122.6fF
+C20 Inverter_5/Input gnd! 8.8fF
+C21 Inverter_0/Input gnd! 11.8fF
+C22 gate_1/C gnd! 17.8fF
+C23 gate_3/C gnd! 18.1fF

@@ -1,0 +1,14 @@
+| units: 30 tech: scmos format: MIT
+p Ctrl Vdd a_12_32# 4 20 8 64
+n Ctrl GND a_12_32# 4 10 8 32
+n Ctrl Output Input1 4 12 22 -22
+p a_12_32# Output Input1 4 20 60 -22
+p Ctrl Input2 Output 4 20 22 -98
+n a_12_32# Input2 Output 4 12 66 -98
+C Input2 GND 4.8
+C Output GND 8.7
+R Output 37
+C Input1 GND 5.0
+C a_12_32# GND 17.8
+R a_12_32# 444
+R Ctrl 460

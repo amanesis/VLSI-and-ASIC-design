@@ -1,0 +1,9 @@
+h Vdd
+l GND
+ana Input Output Vdd GND
+h Input
+s
+l Input
+s
+h Input
+s

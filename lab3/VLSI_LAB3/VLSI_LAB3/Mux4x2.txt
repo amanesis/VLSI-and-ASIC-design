@@ -1,0 +1,31 @@
+h Vdd
+l GND
+ana Input1 Input2 Input3 Input4 Output Ctrl1 Ctrl2 Vdd GND
+h Input1
+l Input2
+h Input3
+l Input4
+h Ctrl1
+h Ctrl2
+s
+h Input1
+l Input2
+h Input3
+l Input4
+h Ctrl1
+l Ctrl2
+s
+h Input1
+l Input2
+h Input3
+l Input4
+l Ctrl1
+h Ctrl2
+s
+h Input1
+l Input2
+h Input3
+l Input4
+l Ctrl1
+l Ctrl2
+s

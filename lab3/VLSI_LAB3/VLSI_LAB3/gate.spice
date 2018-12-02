@@ -1,0 +1,10 @@
+* SPICE3 file created from gate.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 Output C Input Vdd pfet w=20 l=10
++ ad=480 pd=88 as=520 ps=92 
+M1001 Output Cb Input Gnd nfet w=10 l=10
++ ad=240 pd=68 as=260 ps=72 
+C0 Output gnd! 2.2fF
+C1 Input gnd! 2.2fF

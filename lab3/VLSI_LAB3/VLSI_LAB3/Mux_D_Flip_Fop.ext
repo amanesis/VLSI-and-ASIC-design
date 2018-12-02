@@ -1,0 +1,177 @@
+timestamp 1543586722
+version 8.0
+tech scmos
+style lambda=0.30
+scale 1000 1000 30
+resistclasses 3100 2500 7500 83 84 41 1980000
+use Inverter Inverter_10 1 0 347 0 1 339
+use NAND NAND_0 1 0 483 0 1 361
+use Inverter Inverter_9 1 0 600 0 1 340
+use gate gate_0 1 0 758 0 1 321
+use Inverter Inverter_2 1 0 876 0 1 305
+use Inverter Inverter_3 1 0 964 0 1 305
+use gate gate_2 1 0 1188 0 1 321
+use Inverter Inverter_4 1 0 1306 0 1 305
+use Inverter Inverter_5 1 0 1394 0 1 305
+use Inverter Inverter_8 1 0 564 0 1 191
+use Inverter Inverter_0 1 0 662 0 1 185
+use Inverter Inverter_1 1 0 736 0 1 185
+use gate gate_1 1 0 852 0 1 209
+use Inverter Inverter_6 1 0 1092 0 1 185
+use Inverter Inverter_7 1 0 1166 0 1 185
+use gate gate_3 1 0 1282 0 1 209
+node "m1_1410_155#" 0 1.015 1410 155 m1 0 0 0 0 0 0 110 42 0 0 0 0 0 0
+node "m1_1186_209#" 2 9.9844 1186 209 m1 0 0 0 0 0 0 940 228 1040 228 0 0 0 0
+node "m1_1326_329#" 0 2.9 1326 329 m1 0 0 0 0 0 0 400 100 0 0 0 0 0 0
+node "m1_1234_203#" 2 12.13 1234 203 m1 0 0 0 0 0 0 1820 384 0 0 0 0 0 0
+node "m1_1112_209#" 5 28.5766 1112 209 v 0 0 0 0 0 0 2940 628 2560 532 0 0 0 0
+node "m1_756_209#" 2 9.9844 756 209 m1 0 0 0 0 0 0 940 228 1040 228 0 0 0 0
+node "m1_898_203#" 5 27.4426 898 203 m1 0 0 0 0 0 0 2420 532 3260 672 0 0 0 0
+node "m1_896_329#" 0 2.9 896 329 m1 0 0 0 0 0 0 400 100 0 0 0 0 0 0
+node "m1_804_203#" 2 12.13 804 203 m1 0 0 0 0 0 0 1820 384 0 0 0 0 0 0
+node "m1_584_209#" 0 3.94 584 209 m1 0 0 0 0 0 0 560 132 0 0 0 0 0 0
+node "m1_682_209#" 5 28.5766 682 209 v 0 0 0 0 0 0 2940 628 2560 532 0 0 0 0
+node "m1_542_335#" 0 1.86 542 335 m1 0 0 0 0 0 0 240 68 0 0 0 0 0 0
+node "m1_312_329#" 1 7.97 312 329 m1 0 0 0 0 0 0 1180 256 0 0 0 0 0 0
+node "m1_608_363#" 2 9.894 608 363 m1 0 0 0 0 0 0 244 88 2776 496 0 0 0 0
+node "m1_536_363#" 0 2.64 536 363 m1 0 0 0 0 0 0 360 92 0 0 0 0 0 0
+node "m1_302_363#" 0 1.405 302 363 m1 0 0 0 0 0 0 170 54 0 0 0 0 0 0
+node "a_646_156#" 58 1.8988 646 156 p 0 0 0 0 124 70 0 0 0 0 0 0 0 0
+node "CLK" 313 33.5925 548 126 p 0 0 0 0 587 316 2660 1074 0 0 0 0 0 0
+node "a_4_29#" 63 24.203 4 29 pdiff 792 204 1320 252 0 0 4866 940 0 0 0 0 0 0
+node "Input3" 23 5.3547 -40 127 p 276 70 460 86 91 40 1066 208 0 0 0 0 0 0
+node "Input2" 24 5.6168 -42 164 p 264 68 440 84 98 42 1128 212 0 0 0 0 0 0
+node "a_186_187#" 84 25.4368 186 187 pdiff 528 136 880 168 112 60 3308 708 1632 424 0 0 0 0
+node "a_4_186#" 62 20.475 4 186 pdiff 792 204 1320 252 0 0 4366 822 0 0 0 0 0 0
+node "Input1" 27 5.4768 -42 273 p 264 68 440 84 84 40 1104 208 0 0 0 0 0 0
+node "GND" 42 120.442 -32 312 ndiff 440 128 0 0 0 0 15822 3280 5688 1314 0 0 0 0
+equiv "GND" "GND"
+equiv "GND" "GND"
+equiv "GND" "GND"
+node "Input4" 81 117.668 -43 9 p 252 66 420 82 372 116 15603 3994 620 144 0 0 0 0
+equiv "Input4" "Q"
+node "a_176_313#" 444 17.8016 176 313 ndiff 220 64 440 84 996 488 1100 240 0 0 0 0 0 0
+node "a_n6_312#" 854 28.8492 -6 312 ndiff 220 64 440 84 1872 926 1100 240 0 0 0 0 0 0
+node "a_n32_344#" 20 31.232 -32 344 pdiff 0 0 880 168 0 0 4772 1110 0 0 0 0 0 0
+node "a_430_369#" 10 6.7244 430 369 pc 0 0 0 0 120 44 796 188 0 0 0 0 0 0
+node "ctrl1" 460 12.8052 166 329 pc 0 0 0 0 1052 516 160 52 0 0 0 0 0 0
+node "Ctrl0" 901 24.7014 -30 330 p 0 0 0 0 1990 986 178 58 0 0 0 0 0 0
+node "Vdd" 25 92.788 1197 387 pc 0 0 0 0 40 26 12763 2598 2640 568 0 0 0 0
+node "CLR" 10 0.7464 330 405 p 0 0 0 0 48 28 0 0 0 0 0 0 0 0
+node "D" 13 0.8952 504 425 p 0 0 0 0 60 32 0 0 0 0 0 0 0 0
+cap "GND" "Input4" 0.824
+cap "GND" "ctrl1" 0.4256
+cap "GND" "a_n6_312#" 0.4608
+cap "Vdd" "m1_1112_209#" 1.4608
+cap "ctrl1" "a_4_186#" 0.5496
+cap "Input3" "Ctrl0" 0.5154
+cap "a_4_186#" "a_n6_312#" 0.4812
+cap "Vdd" "m1_608_363#" 2.8124
+cap "GND" "m1_682_209#" 1.9504
+cap "Vdd" "m1_898_203#" 1.648
+cap "Input4" "m1_1410_155#" 0.674
+cap "a_4_29#" "a_n6_312#" 0.4128
+cap "GND" "a_176_313#" 0.455467
+cap "Input1" "Ctrl0" 0.5496
+cap "GND" "Ctrl0" 0.44
+cap "Input2" "Ctrl0" 0.5496
+cap "CLK" "GND" 0.9624
+cap "m1_898_203#" "m1_1112_209#" 0.824
+cap "a_186_187#" "a_176_313#" 0.4812
+cap "GND" "m1_1112_209#" 1.9504
+cap "GND" "m1_898_203#" 0.824
+cap "m1_1234_203#" "m1_1186_209#" 0.824
+cap "Vdd" "m1_682_209#" 1.4608
+cap "GND" "a_186_187#" 1.58853
+cap "m1_804_203#" "m1_756_209#" 0.824
+cap "GND" "a_646_156#" 0.4812
+cap "CLK" "m1_682_209#" 0.0768
+cap "m1_608_363#" "m1_682_209#" 0.824
+fet nfet 50 25 51 26 48 32 "Gnd!" "a_n6_312#" 8 0 "Input4" 12 0 "a_4_29#" 12 0
+fet pfet 4 25 5 26 80 48 "Vdd!" "Ctrl0" 8 0 "Input4" 20 0 "a_4_29#" 20 0
+fet pfet 42 111 43 112 80 48 "Vdd!" "a_n6_312#" 8 0 "a_4_29#" 20 0 "Input3" 20 0
+fet nfet 4 111 5 112 48 32 "Gnd!" "Ctrl0" 8 0 "a_4_29#" 12 0 "Input3" 12 0
+fet nfet 230 183 231 184 48 32 "Gnd!" "a_176_313#" 8 0 "a_4_29#" 12 0 "a_186_187#" 12 0
+fet pfet 186 183 187 184 80 48 "Vdd!" "ctrl1" 8 0 "a_4_29#" 20 0 "a_186_187#" 20 0
+fet pfet 224 259 225 260 80 48 "Vdd!" "a_176_313#" 8 0 "a_186_187#" 20 0 "a_4_186#" 20 0
+fet nfet 186 259 187 260 48 32 "Gnd!" "ctrl1" 8 0 "a_186_187#" 12 0 "a_4_186#" 12 0
+fet nfet 48 182 49 183 48 32 "Gnd!" "a_n6_312#" 8 0 "Input2" 12 0 "a_4_186#" 12 0
+fet pfet 4 182 5 183 80 48 "Vdd!" "Ctrl0" 8 0 "Input2" 20 0 "a_4_186#" 20 0
+fet pfet 42 258 43 259 80 48 "Vdd!" "a_n6_312#" 8 0 "a_4_186#" 20 0 "Input1" 20 0
+fet nfet 4 258 5 259 48 32 "Gnd!" "Ctrl0" 8 0 "a_4_186#" 12 0 "Input1" 12 0
+fet nfet 172 313 173 314 40 28 "Gnd!" "ctrl1" 8 0 "GND" 10 0 "a_176_313#" 10 0
+fet nfet -10 312 -9 313 40 28 "Gnd!" "Ctrl0" 8 0 "GND" 10 0 "a_n6_312#" 10 0
+fet pfet 172 345 173 346 80 48 "Vdd!" "ctrl1" 8 0 "a_n32_344#" 20 0 "a_176_313#" 20 0
+fet pfet -10 344 -9 345 80 48 "Vdd!" "Ctrl0" 8 0 "a_n32_344#" 20 0 "a_n6_312#" 20 0
+cap "a_186_187#" "NAND_0/Output" -2.84217e-17
+merge "Inverter_5/GND" "Inverter_4/GND" -12.0087 0 0 0 0 0 0 1275 -659 -994 -460 0 0 0 0
+merge "Inverter_4/GND" "Inverter_3/GND"
+merge "Inverter_3/GND" "Inverter_2/GND"
+merge "Inverter_2/GND" "Inverter_9/GND"
+merge "Inverter_9/GND" "NAND_0/GND"
+merge "NAND_0/GND" "Inverter_10/GND"
+merge "Inverter_10/GND" "m1_312_329#"
+merge "m1_312_329#" "m1_542_335#"
+merge "m1_542_335#" "Inverter_7/GND"
+merge "Inverter_7/GND" "Inverter_6/GND"
+merge "Inverter_6/GND" "Inverter_1/GND"
+merge "Inverter_1/GND" "Inverter_0/GND"
+merge "Inverter_0/GND" "Inverter_8/GND"
+merge "Inverter_8/GND" "GND"
+merge "gate_2/Input" "Inverter_3/Output" -7.5499 0 0 0 0 0 0 -980 -264 -40 -13 0 0 0 0
+merge "Inverter_3/Output" "gate_1/Output"
+merge "gate_1/Output" "m1_898_203#"
+merge "gate_1/C" "Inverter_1/Output" -0.4213 0 0 0 0 0 0 100 -60 99 0 0 0 0 0
+merge "Inverter_1/Output" "gate_0/a_6_n36#"
+merge "gate_0/a_6_n36#" "m1_756_209#"
+merge "gate_2/C" "Inverter_7/Input" -2.145 0 0 0 0 0 0 -90 -122 0 0 0 0 0 0
+merge "Inverter_7/Input" "Inverter_6/Output"
+merge "Inverter_6/Output" "gate_3/a_6_n36#"
+merge "gate_3/a_6_n36#" "m1_1112_209#"
+merge "Inverter_9/Vdd" "NAND_0/Vdd" -16.3805 0 0 0 0 0 0 -1183 -816 0 0 0 0 0 0
+merge "NAND_0/Vdd" "Inverter_10/Vdd"
+merge "Inverter_10/Vdd" "a_n32_344#"
+merge "a_n32_344#" "Inverter_5/Vdd"
+merge "Inverter_5/Vdd" "Inverter_4/Vdd"
+merge "Inverter_4/Vdd" "Inverter_3/Vdd"
+merge "Inverter_3/Vdd" "Inverter_2/Vdd"
+merge "Inverter_2/Vdd" "Inverter_7/Vdd"
+merge "Inverter_7/Vdd" "Inverter_6/Vdd"
+merge "Inverter_6/Vdd" "Inverter_1/Vdd"
+merge "Inverter_1/Vdd" "Inverter_0/Vdd"
+merge "Inverter_0/Vdd" "Inverter_8/Vdd"
+merge "Inverter_8/Vdd" "Vdd"
+merge "Inverter_10/Input" "m1_302_363#" -0.1008 0 0 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "m1_302_363#" "CLR"
+merge "Inverter_0/Input" "a_646_156#" -0.7008 0 0 0 0 0 -8 0 -40 0 0 0 0 0 0
+merge "a_646_156#" "Inverter_8/Output"
+merge "Inverter_8/Output" "m1_584_209#"
+merge "Inverter_8/Input" "Inverter_6/Input" -0.6528 0 0 0 0 -12 -44 0 0 0 0 0 0 0 0
+merge "Inverter_6/Input" "CLK"
+merge "Inverter_5/Input" "Inverter_4/Output" -0.285 0 0 0 0 0 0 90 -40 0 0 0 0 0 0
+merge "Inverter_4/Output" "m1_1326_329#"
+merge "Inverter_5/Output" "gate_3/Output" -0.44 0 0 0 0 0 0 80 -48 0 0 0 0 0 0
+merge "gate_3/Output" "Input4"
+merge "Inverter_2/Input" "gate_0/Output" -0.585 0 0 0 0 0 0 90 -60 0 0 0 0 0 0
+merge "gate_0/Output" "gate_1/Input"
+merge "gate_1/Input" "m1_804_203#"
+merge "Inverter_9/Input" "NAND_0/Output" -2.742 0 0 0 0 0 0 -612 -40 0 0 0 0 0 0
+merge "NAND_0/Output" "m1_536_363#"
+merge "gate_0/C" "Inverter_1/Input" -1.5805 0 0 0 0 0 0 -23 -100 0 0 0 0 0 0
+merge "Inverter_1/Input" "Inverter_0/Output"
+merge "Inverter_0/Output" "gate_1/a_6_n36#"
+merge "gate_1/a_6_n36#" "m1_682_209#"
+merge "NAND_0/Input1" "Inverter_10/Output" -2.7463 0 0 0 0 -80 -28 -385 -26 0 0 0 0 0 0
+merge "Inverter_10/Output" "a_430_369#"
+merge "NAND_0/Input2" "a_186_187#" -0.1008 0 0 0 0 0 -8 0 0 0 0 0 0 0 0
+merge "a_186_187#" "D"
+merge "Inverter_4/Input" "gate_2/Output" -0.865 0 0 0 0 0 0 10 -60 0 0 0 0 0 0
+merge "gate_2/Output" "gate_3/Input"
+merge "gate_3/Input" "m1_1234_203#"
+merge "Inverter_3/Input" "Inverter_2/Output" -0.6 0 0 0 0 0 0 0 -40 0 0 0 0 0 0
+merge "Inverter_2/Output" "m1_896_329#"
+merge "gate_0/Input" "Inverter_9/Output" -1.4584 0 0 0 0 0 0 -62 -68 -40 -18 0 0 0 0
+merge "Inverter_9/Output" "m1_608_363#"
+merge "gate_3/C" "Inverter_7/Output" -0.1053 0 0 0 0 0 0 90 -60 369 0 0 0 0 0
+merge "Inverter_7/Output" "gate_2/a_6_n36#"
+merge "gate_2/a_6_n36#" "m1_1186_209#"

@@ -1,0 +1,20 @@
+* SPICE3 file created from Mux2x1.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 a_12_32# Ctrl Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=440 ps=84 
+M1001 a_12_32# Ctrl GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=220 ps=64 
+M1002 Input1 Ctrl Output Gnd nfet w=12 l=4
++ ad=264 pd=68 as=528 ps=136 
+M1003 Input1 a_12_32# Output Vdd pfet w=20 l=4
++ ad=440 pd=84 as=880 ps=168 
+M1004 Output Ctrl Input2 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=440 ps=84 
+M1005 Output a_12_32# Input2 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=264 ps=68 
+C0 Input2 gnd! 4.8fF
+C1 Output gnd! 8.7fF
+C2 Input1 gnd! 5.0fF
+C3 a_12_32# gnd! 17.8fF

@@ -1,0 +1,75 @@
+h Vdd
+l GND
+analyzer AbS Input1 Input2 Cin Sum Cout Vdd GND
+l Input1
+l Input2
+l Cin
+l AbS
+s
+h Input1
+l Input2
+l Cin
+l AbS
+s
+h Input1
+h Input2
+l Cin
+l AbS
+s
+h Input1
+h Input2
+h Cin
+l AbS
+s
+l Input1
+l Input2
+h Cin
+l AbS
+s
+l Input1
+h Input2
+h Cin
+l AbS
+s
+l Input1
+l Input2
+l Cin
+l AbS
+s
+s
+l Input1
+l Input2
+l Cin
+h AbS
+s
+h Input1
+l Input2
+l Cin
+h AbS
+s
+h Input1
+h Input2
+l Cin
+h AbS
+s
+h Input1
+h Input2
+h Cin
+h AbS
+s
+l Input1
+l Input2
+h Cin
+h AbS
+s
+l Input1
+h Input2
+h Cin
+h AbS
+s
+l Input1
+l Input2
+l Cin
+h AbS
+stepsize 2
+s

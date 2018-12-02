@@ -1,0 +1,54 @@
+h Vdd
+l GND
+ana D CLK Q
+l D
+l CLK
+s
+h D
+h CLK
+s
+h D
+l CLK
+s
+h D
+h CLK
+s
+l D
+l CLK
+s
+l D
+h CLK
+s
+h D
+l CLK
+s
+l D
+h CLK
+s
+l D
+l CLK
+s
+h D
+h CLK
+s
+h D
+l CLK
+s
+h D
+h CLK
+s
+l D
+l CLK
+s
+l D
+h CLK
+s
+l D
+l CLK
+s
+l D
+h CLK
+s
+s
+stepsize 2
+s

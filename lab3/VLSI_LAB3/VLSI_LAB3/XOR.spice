@@ -1,0 +1,39 @@
+* SPICE3 file created from XOR.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 a_n44_94# Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=1840 ps=384 
+M1001 Vdd Input2 a_n44_94# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1002 a_96_58# a_n44_94# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1003 a_n44_60# Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=1080 ps=336 
+M1004 a_n44_94# Input2 a_n44_60# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1005 a_96_58# a_n44_94# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1006 a_n44_n6# Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1007 a_n44_n40# Input2 a_n44_n6# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1008 a_104_n8# a_n44_n40# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1009 Output a_96_58# a_104_n8# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1010 a_n44_n40# Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1011 GND Input2 a_n44_n40# Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1012 Output a_n44_n40# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1013 GND a_96_58# Output Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+C0 Output gnd! 6.1fF
+C1 a_n44_n40# gnd! 13.8fF
+C2 a_96_58# gnd! 13.6fF
+C3 a_n44_94# gnd! 12.1fF
+C4 Vdd gnd! 41.5fF
+C5 Input2 gnd! 9.2fF
+C6 Input1 gnd! 9.2fF

@@ -1,0 +1,54 @@
+| units: 30 tech: scmos format: MIT
+p Pos Inv0_Q Q 10 20 963 74
+n CLK Inv0_Q Q 10 10 963 40
+p CLK GOut G_Input 10 20 533 74
+n Pos GOut G_Input 10 10 533 40
+p CLK Vdd Pos 4 20 395 80
+n CLK GND Pos 4 10 395 48
+p Inv_Q Vdd Q 4 20 1053 200
+n Inv_Q GND Q 4 10 1053 168
+p Inv0_Q Vdd Inv_Q 4 20 965 200
+n Inv0_Q GND Inv_Q 4 10 965 168
+p CLK G_Input Inv0_Q 10 20 869 186
+n Pos G_Input Inv0_Q 10 10 869 152
+p Inverter_3/Input Vdd G_Input 4 20 623 200
+n Inverter_3/Input GND G_Input 4 10 623 168
+p GOut Vdd Inverter_3/Input 4 20 535 200
+n GOut GND Inverter_3/Input 4 10 535 168
+p Pos gate_0/Input GOut 10 20 439 186
+n CLK gate_0/Input GOut 10 10 439 152
+p Inv_Clr Vdd gate_0/Input 4 20 259 235
+n Inv_Clr GND gate_0/Input 4 10 259 203
+p NAND_0/Input1 Vdd Inv_Clr 4 20 112 240
+p D Inv_Clr Vdd 4 20 180 240
+n NAND_0/Input1 GND NAND_0/a_n42_n10# 4 10 112 206
+n D NAND_0/a_n42_n10# Inv_Clr 4 10 180 206
+p CLR Vdd NAND_0/Input1 4 20 6 234
+n CLR GND NAND_0/Input1 4 10 6 202
+R CLR 130
+R NAND_0/a_n42_n10# 20
+R D 193
+C NAND_0/Input1 GND 12.4
+R NAND_0/Input1 180
+C gate_0/Input GND 11.6
+R gate_0/Input 40
+C Inv_Clr GND 12.5
+R Inv_Clr 135
+C Pos GND 80.4
+R Pos 192
+C GOut GND 21.4
+R GOut 195
+C Inverter_3/Input GND 8.5
+R Inverter_3/Input 125
+C G_Input GND 37.1
+R G_Input 85
+R CLK 341
+C Inv0_Q GND 20.6
+R Inv0_Q 162
+R GND 127
+C Q GND 23.2
+R Q 63
+C Vdd GND 75.1
+R Vdd 96
+C Inv_Q GND 9.9
+R Inv_Q 152

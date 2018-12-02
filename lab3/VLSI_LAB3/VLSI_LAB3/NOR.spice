@@ -1,0 +1,15 @@
+* SPICE3 file created from NOR.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 a_32_54# Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=360 ps=76 
+M1001 Output Input2 a_32_54# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1002 Output Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=340 ps=108 
+M1003 GND Input2 Output Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+C0 Output gnd! 6.1fF
+C1 Input2 gnd! 4.5fF
+C2 Input1 gnd! 4.5fF

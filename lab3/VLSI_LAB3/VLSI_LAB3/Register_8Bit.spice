@@ -1,0 +1,998 @@
+* SPICE3 file created from Register_8Bit.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 Out0 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_3/gate_3/Input Vdd pfet w=20 l=10
++ ad=1800 pd=340 as=1000 ps=180 
+M1001 Out0 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/C Register_4Bit_1/Mux_D_Flip_Fop_3/gate_3/Input Gnd nfet w=10 l=10
++ ad=988 pd=268 as=500 ps=140 
+M1002 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=51200 ps=9920 
+M1003 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=24320 ps=7104 
+M1004 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/C CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1005 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1006 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_3/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_3/gate_1/Input Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1007 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_3/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_3/gate_1/Input Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1008 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_3/gate_0/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1009 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_3/gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1010 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_0/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1011 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_0/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1012 Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_0/Input CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1013 Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_0/Input CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1014 Out0 Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_5/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1015 Out0 Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_5/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1016 Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_5/Input Register_4Bit_1/Mux_D_Flip_Fop_3/gate_3/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1017 Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_5/Input Register_4Bit_1/Mux_D_Flip_Fop_3/gate_3/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1018 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_3/Input Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/C Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1019 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_3/Input Register_4Bit_1/Mux_D_Flip_Fop_3/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1020 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_3/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1021 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1022 Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_3/Input Register_4Bit_1/Mux_D_Flip_Fop_3/gate_1/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1023 Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_3/Input Register_4Bit_1/Mux_D_Flip_Fop_3/gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1024 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_1/Input Register_4Bit_1/Mux_D_Flip_Fop_3/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_3/gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1025 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_1/Input Register_4Bit_1/Mux_D_Flip_Fop_3/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_3/gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1026 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_0/Input Register_4Bit_1/Mux_D_Flip_Fop_3/NAND_0/Output Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1027 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_0/Input Register_4Bit_1/Mux_D_Flip_Fop_3/NAND_0/Output GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1028 Register_4Bit_1/Mux_D_Flip_Fop_3/NAND_0/Output Register_4Bit_1/Mux_D_Flip_Fop_3/NAND_0/Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1029 Vdd Register_4Bit_1/Mux_D_Flip_Fop_3/D Register_4Bit_1/Mux_D_Flip_Fop_3/NAND_0/Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1030 Register_4Bit_1/Mux_D_Flip_Fop_3/NAND_0/a_n42_n10# Register_4Bit_1/Mux_D_Flip_Fop_3/NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1031 Register_4Bit_1/Mux_D_Flip_Fop_3/NAND_0/Output Register_4Bit_1/Mux_D_Flip_Fop_3/D Register_4Bit_1/Mux_D_Flip_Fop_3/NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1032 Register_4Bit_1/Mux_D_Flip_Fop_3/NAND_0/Input1 CLR Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1033 Register_4Bit_1/Mux_D_Flip_Fop_3/NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1034 Register_4Bit_1/Mux_D_Flip_Fop_3/a_n6_312# Ctrl0 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1035 Register_4Bit_1/Mux_D_Flip_Fop_3/a_176_313# Ctrl1 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1036 Register_4Bit_1/Mux_D_Flip_Fop_3/a_n6_312# Ctrl0 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1037 Register_4Bit_1/Mux_D_Flip_Fop_3/a_176_313# Ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1038 In0 Ctrl0 Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_186# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1039 In0 Register_4Bit_1/Mux_D_Flip_Fop_3/a_n6_312# Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_186# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1040 Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_186# Ctrl0 Out1 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=2240 ps=424 
+M1041 Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_186# Register_4Bit_1/Mux_D_Flip_Fop_3/a_n6_312# Out1 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=1252 ps=336 
+M1042 Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_186# Ctrl1 Register_4Bit_1/Mux_D_Flip_Fop_3/D Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1043 Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_186# Register_4Bit_1/Mux_D_Flip_Fop_3/a_176_313# Register_4Bit_1/Mux_D_Flip_Fop_3/D Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1044 Register_4Bit_1/Mux_D_Flip_Fop_3/D Ctrl1 Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1045 Register_4Bit_1/Mux_D_Flip_Fop_3/D Register_4Bit_1/Mux_D_Flip_Fop_3/a_176_313# Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1046 SL Ctrl0 Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_29# Gnd nfet w=12 l=4
++ ad=276 pd=70 as=0 ps=0 
+M1047 SL Register_4Bit_1/Mux_D_Flip_Fop_3/a_n6_312# Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_29# Vdd pfet w=20 l=4
++ ad=460 pd=86 as=0 ps=0 
+M1048 Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_29# Ctrl0 Out0 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1049 Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_29# Register_4Bit_1/Mux_D_Flip_Fop_3/a_n6_312# Out0 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1050 Out1 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_2/gate_3/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=1000 ps=180 
+M1051 Out1 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/C Register_4Bit_1/Mux_D_Flip_Fop_2/gate_3/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=500 ps=140 
+M1052 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1053 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1054 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/C CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1055 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1056 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_2/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_2/gate_1/Input Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1057 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_2/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_2/gate_1/Input Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1058 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_2/gate_0/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1059 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_2/gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1060 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_0/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1061 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_0/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1062 Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_0/Input CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1063 Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_0/Input CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1064 Out1 Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_5/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1065 Out1 Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_5/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1066 Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_5/Input Register_4Bit_1/Mux_D_Flip_Fop_2/gate_3/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1067 Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_5/Input Register_4Bit_1/Mux_D_Flip_Fop_2/gate_3/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1068 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_3/Input Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/C Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1069 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_3/Input Register_4Bit_1/Mux_D_Flip_Fop_2/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1070 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_3/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1071 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1072 Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_3/Input Register_4Bit_1/Mux_D_Flip_Fop_2/gate_1/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1073 Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_3/Input Register_4Bit_1/Mux_D_Flip_Fop_2/gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1074 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_1/Input Register_4Bit_1/Mux_D_Flip_Fop_2/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_2/gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1075 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_1/Input Register_4Bit_1/Mux_D_Flip_Fop_2/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_2/gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1076 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_0/Input Register_4Bit_1/Mux_D_Flip_Fop_2/NAND_0/Output Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1077 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_0/Input Register_4Bit_1/Mux_D_Flip_Fop_2/NAND_0/Output GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1078 Register_4Bit_1/Mux_D_Flip_Fop_2/NAND_0/Output Register_4Bit_1/Mux_D_Flip_Fop_2/NAND_0/Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1079 Vdd Register_4Bit_1/Mux_D_Flip_Fop_2/D Register_4Bit_1/Mux_D_Flip_Fop_2/NAND_0/Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1080 Register_4Bit_1/Mux_D_Flip_Fop_2/NAND_0/a_n42_n10# Register_4Bit_1/Mux_D_Flip_Fop_2/NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1081 Register_4Bit_1/Mux_D_Flip_Fop_2/NAND_0/Output Register_4Bit_1/Mux_D_Flip_Fop_2/D Register_4Bit_1/Mux_D_Flip_Fop_2/NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1082 Register_4Bit_1/Mux_D_Flip_Fop_2/NAND_0/Input1 CLR Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1083 Register_4Bit_1/Mux_D_Flip_Fop_2/NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1084 Register_4Bit_1/Mux_D_Flip_Fop_2/a_n6_312# Ctrl0 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1085 Register_4Bit_1/Mux_D_Flip_Fop_2/a_176_313# Ctrl1 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1086 Register_4Bit_1/Mux_D_Flip_Fop_2/a_n6_312# Ctrl0 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1087 Register_4Bit_1/Mux_D_Flip_Fop_2/a_176_313# Ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1088 In1 Ctrl0 Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_186# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1089 In1 Register_4Bit_1/Mux_D_Flip_Fop_2/a_n6_312# Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_186# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1090 Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_186# Ctrl0 Out2 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=2240 ps=424 
+M1091 Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_186# Register_4Bit_1/Mux_D_Flip_Fop_2/a_n6_312# Out2 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=1252 ps=336 
+M1092 Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_186# Ctrl1 Register_4Bit_1/Mux_D_Flip_Fop_2/D Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1093 Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_186# Register_4Bit_1/Mux_D_Flip_Fop_2/a_176_313# Register_4Bit_1/Mux_D_Flip_Fop_2/D Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1094 Register_4Bit_1/Mux_D_Flip_Fop_2/D Ctrl1 Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1095 Register_4Bit_1/Mux_D_Flip_Fop_2/D Register_4Bit_1/Mux_D_Flip_Fop_2/a_176_313# Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1096 Out0 Ctrl0 Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1097 Out0 Register_4Bit_1/Mux_D_Flip_Fop_2/a_n6_312# Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1098 Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_29# Ctrl0 Out1 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1099 Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_29# Register_4Bit_1/Mux_D_Flip_Fop_2/a_n6_312# Out1 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1100 Out2 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_1/gate_3/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=1000 ps=180 
+M1101 Out2 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/C Register_4Bit_1/Mux_D_Flip_Fop_1/gate_3/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=500 ps=140 
+M1102 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1103 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1104 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/C CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1105 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1106 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_1/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_1/gate_1/Input Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1107 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_1/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_1/gate_1/Input Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1108 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_1/gate_0/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1109 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_1/gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1110 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_0/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1111 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_0/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1112 Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_0/Input CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1113 Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_0/Input CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1114 Out2 Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_5/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1115 Out2 Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_5/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1116 Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_5/Input Register_4Bit_1/Mux_D_Flip_Fop_1/gate_3/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1117 Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_5/Input Register_4Bit_1/Mux_D_Flip_Fop_1/gate_3/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1118 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_3/Input Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/C Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1119 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_3/Input Register_4Bit_1/Mux_D_Flip_Fop_1/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1120 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_3/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1121 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1122 Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_3/Input Register_4Bit_1/Mux_D_Flip_Fop_1/gate_1/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1123 Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_3/Input Register_4Bit_1/Mux_D_Flip_Fop_1/gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1124 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_1/Input Register_4Bit_1/Mux_D_Flip_Fop_1/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_1/gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1125 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_1/Input Register_4Bit_1/Mux_D_Flip_Fop_1/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_1/gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1126 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_0/Input Register_4Bit_1/Mux_D_Flip_Fop_1/NAND_0/Output Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1127 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_0/Input Register_4Bit_1/Mux_D_Flip_Fop_1/NAND_0/Output GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1128 Register_4Bit_1/Mux_D_Flip_Fop_1/NAND_0/Output Register_4Bit_1/Mux_D_Flip_Fop_1/NAND_0/Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1129 Vdd Register_4Bit_1/Mux_D_Flip_Fop_1/D Register_4Bit_1/Mux_D_Flip_Fop_1/NAND_0/Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1130 Register_4Bit_1/Mux_D_Flip_Fop_1/NAND_0/a_n42_n10# Register_4Bit_1/Mux_D_Flip_Fop_1/NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1131 Register_4Bit_1/Mux_D_Flip_Fop_1/NAND_0/Output Register_4Bit_1/Mux_D_Flip_Fop_1/D Register_4Bit_1/Mux_D_Flip_Fop_1/NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1132 Register_4Bit_1/Mux_D_Flip_Fop_1/NAND_0/Input1 CLR Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1133 Register_4Bit_1/Mux_D_Flip_Fop_1/NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1134 Register_4Bit_1/Mux_D_Flip_Fop_1/a_n6_312# Ctrl0 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1135 Register_4Bit_1/Mux_D_Flip_Fop_1/a_176_313# Ctrl1 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1136 Register_4Bit_1/Mux_D_Flip_Fop_1/a_n6_312# Ctrl0 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1137 Register_4Bit_1/Mux_D_Flip_Fop_1/a_176_313# Ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1138 In2 Ctrl0 Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_186# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1139 In2 Register_4Bit_1/Mux_D_Flip_Fop_1/a_n6_312# Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_186# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1140 Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_186# Ctrl0 Out3 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=2240 ps=424 
+M1141 Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_186# Register_4Bit_1/Mux_D_Flip_Fop_1/a_n6_312# Out3 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=1252 ps=336 
+M1142 Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_186# Ctrl1 Register_4Bit_1/Mux_D_Flip_Fop_1/D Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1143 Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_186# Register_4Bit_1/Mux_D_Flip_Fop_1/a_176_313# Register_4Bit_1/Mux_D_Flip_Fop_1/D Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1144 Register_4Bit_1/Mux_D_Flip_Fop_1/D Ctrl1 Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1145 Register_4Bit_1/Mux_D_Flip_Fop_1/D Register_4Bit_1/Mux_D_Flip_Fop_1/a_176_313# Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1146 Out1 Ctrl0 Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1147 Out1 Register_4Bit_1/Mux_D_Flip_Fop_1/a_n6_312# Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1148 Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_29# Ctrl0 Out2 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1149 Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_29# Register_4Bit_1/Mux_D_Flip_Fop_1/a_n6_312# Out2 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1150 Out3 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_0/gate_3/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=1000 ps=180 
+M1151 Out3 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/C Register_4Bit_1/Mux_D_Flip_Fop_0/gate_3/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=500 ps=140 
+M1152 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1153 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1154 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/C CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1155 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1156 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_0/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_0/gate_1/Input Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1157 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_0/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_0/gate_1/Input Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1158 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_0/gate_0/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1159 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_0/gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1160 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_0/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1161 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_0/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1162 Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_0/Input CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1163 Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_0/Input CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1164 Out3 Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_5/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1165 Out3 Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_5/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1166 Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_5/Input Register_4Bit_1/Mux_D_Flip_Fop_0/gate_3/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1167 Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_5/Input Register_4Bit_1/Mux_D_Flip_Fop_0/gate_3/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1168 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_3/Input Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/C Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1169 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_3/Input Register_4Bit_1/Mux_D_Flip_Fop_0/gate_3/C Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1170 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_3/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1171 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/Input Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1172 Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_3/Input Register_4Bit_1/Mux_D_Flip_Fop_0/gate_1/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1173 Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_3/Input Register_4Bit_1/Mux_D_Flip_Fop_0/gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1174 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_1/Input Register_4Bit_1/Mux_D_Flip_Fop_0/gate_0/C Register_4Bit_1/Mux_D_Flip_Fop_0/gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1175 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_1/Input Register_4Bit_1/Mux_D_Flip_Fop_0/gate_1/C Register_4Bit_1/Mux_D_Flip_Fop_0/gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1176 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_0/Input Register_4Bit_1/Mux_D_Flip_Fop_0/NAND_0/Output Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1177 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_0/Input Register_4Bit_1/Mux_D_Flip_Fop_0/NAND_0/Output GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1178 Register_4Bit_1/Mux_D_Flip_Fop_0/NAND_0/Output Register_4Bit_1/Mux_D_Flip_Fop_0/NAND_0/Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1179 Vdd Register_4Bit_1/Mux_D_Flip_Fop_0/D Register_4Bit_1/Mux_D_Flip_Fop_0/NAND_0/Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1180 Register_4Bit_1/Mux_D_Flip_Fop_0/NAND_0/a_n42_n10# Register_4Bit_1/Mux_D_Flip_Fop_0/NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1181 Register_4Bit_1/Mux_D_Flip_Fop_0/NAND_0/Output Register_4Bit_1/Mux_D_Flip_Fop_0/D Register_4Bit_1/Mux_D_Flip_Fop_0/NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1182 Register_4Bit_1/Mux_D_Flip_Fop_0/NAND_0/Input1 CLR Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1183 Register_4Bit_1/Mux_D_Flip_Fop_0/NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1184 Register_4Bit_1/Mux_D_Flip_Fop_0/a_n6_312# Ctrl0 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1185 Register_4Bit_1/Mux_D_Flip_Fop_0/a_176_313# Ctrl1 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1186 Register_4Bit_1/Mux_D_Flip_Fop_0/a_n6_312# Ctrl0 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1187 Register_4Bit_1/Mux_D_Flip_Fop_0/a_176_313# Ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1188 In3 Ctrl0 Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_186# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1189 In3 Register_4Bit_1/Mux_D_Flip_Fop_0/a_n6_312# Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_186# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1190 Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_186# Ctrl0 Out4 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=2240 ps=424 
+M1191 Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_186# Register_4Bit_1/Mux_D_Flip_Fop_0/a_n6_312# Out4 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=1252 ps=336 
+M1192 Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_186# Ctrl1 Register_4Bit_1/Mux_D_Flip_Fop_0/D Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1193 Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_186# Register_4Bit_1/Mux_D_Flip_Fop_0/a_176_313# Register_4Bit_1/Mux_D_Flip_Fop_0/D Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1194 Register_4Bit_1/Mux_D_Flip_Fop_0/D Ctrl1 Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1195 Register_4Bit_1/Mux_D_Flip_Fop_0/D Register_4Bit_1/Mux_D_Flip_Fop_0/a_176_313# Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1196 Out2 Ctrl0 Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1197 Out2 Register_4Bit_1/Mux_D_Flip_Fop_0/a_n6_312# Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1198 Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_29# Ctrl0 Out3 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1199 Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_29# Register_4Bit_1/Mux_D_Flip_Fop_0/a_n6_312# Out3 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1200 Out4 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_3/gate_3/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=1000 ps=180 
+M1201 Out4 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/C Register_4Bit_0/Mux_D_Flip_Fop_3/gate_3/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=500 ps=140 
+M1202 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1203 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1204 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/C CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1205 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1206 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_3/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_3/gate_1/Input Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1207 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_3/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_3/gate_1/Input Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1208 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_3/gate_0/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1209 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_3/gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1210 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_0/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1211 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_0/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1212 Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_0/Input CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1213 Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_0/Input CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1214 Out4 Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_5/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1215 Out4 Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_5/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1216 Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_5/Input Register_4Bit_0/Mux_D_Flip_Fop_3/gate_3/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1217 Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_5/Input Register_4Bit_0/Mux_D_Flip_Fop_3/gate_3/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1218 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_3/Input Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/C Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1219 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_3/Input Register_4Bit_0/Mux_D_Flip_Fop_3/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1220 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_3/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1221 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1222 Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_3/Input Register_4Bit_0/Mux_D_Flip_Fop_3/gate_1/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1223 Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_3/Input Register_4Bit_0/Mux_D_Flip_Fop_3/gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1224 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_1/Input Register_4Bit_0/Mux_D_Flip_Fop_3/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_3/gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1225 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_1/Input Register_4Bit_0/Mux_D_Flip_Fop_3/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_3/gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1226 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_0/Input Register_4Bit_0/Mux_D_Flip_Fop_3/NAND_0/Output Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1227 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_0/Input Register_4Bit_0/Mux_D_Flip_Fop_3/NAND_0/Output GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1228 Register_4Bit_0/Mux_D_Flip_Fop_3/NAND_0/Output Register_4Bit_0/Mux_D_Flip_Fop_3/NAND_0/Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1229 Vdd Register_4Bit_0/Mux_D_Flip_Fop_3/D Register_4Bit_0/Mux_D_Flip_Fop_3/NAND_0/Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1230 Register_4Bit_0/Mux_D_Flip_Fop_3/NAND_0/a_n42_n10# Register_4Bit_0/Mux_D_Flip_Fop_3/NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1231 Register_4Bit_0/Mux_D_Flip_Fop_3/NAND_0/Output Register_4Bit_0/Mux_D_Flip_Fop_3/D Register_4Bit_0/Mux_D_Flip_Fop_3/NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1232 Register_4Bit_0/Mux_D_Flip_Fop_3/NAND_0/Input1 CLR Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1233 Register_4Bit_0/Mux_D_Flip_Fop_3/NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1234 Register_4Bit_0/Mux_D_Flip_Fop_3/a_n6_312# Ctrl0 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1235 Register_4Bit_0/Mux_D_Flip_Fop_3/a_176_313# Ctrl1 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1236 Register_4Bit_0/Mux_D_Flip_Fop_3/a_n6_312# Ctrl0 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1237 Register_4Bit_0/Mux_D_Flip_Fop_3/a_176_313# Ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1238 In4 Ctrl0 Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_186# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1239 In4 Register_4Bit_0/Mux_D_Flip_Fop_3/a_n6_312# Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_186# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1240 Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_186# Ctrl0 Out5 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=2240 ps=424 
+M1241 Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_186# Register_4Bit_0/Mux_D_Flip_Fop_3/a_n6_312# Out5 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=1252 ps=336 
+M1242 Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_186# Ctrl1 Register_4Bit_0/Mux_D_Flip_Fop_3/D Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1243 Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_186# Register_4Bit_0/Mux_D_Flip_Fop_3/a_176_313# Register_4Bit_0/Mux_D_Flip_Fop_3/D Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1244 Register_4Bit_0/Mux_D_Flip_Fop_3/D Ctrl1 Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1245 Register_4Bit_0/Mux_D_Flip_Fop_3/D Register_4Bit_0/Mux_D_Flip_Fop_3/a_176_313# Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1246 Out3 Ctrl0 Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1247 Out3 Register_4Bit_0/Mux_D_Flip_Fop_3/a_n6_312# Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1248 Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_29# Ctrl0 Out4 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1249 Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_29# Register_4Bit_0/Mux_D_Flip_Fop_3/a_n6_312# Out4 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1250 Out5 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_2/gate_3/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=1000 ps=180 
+M1251 Out5 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/C Register_4Bit_0/Mux_D_Flip_Fop_2/gate_3/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=500 ps=140 
+M1252 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1253 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1254 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/C CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1255 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1256 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_2/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_2/gate_1/Input Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1257 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_2/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_2/gate_1/Input Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1258 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_2/gate_0/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1259 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_2/gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1260 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_0/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1261 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_0/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1262 Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_0/Input CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1263 Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_0/Input CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1264 Out5 Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_5/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1265 Out5 Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_5/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1266 Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_5/Input Register_4Bit_0/Mux_D_Flip_Fop_2/gate_3/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1267 Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_5/Input Register_4Bit_0/Mux_D_Flip_Fop_2/gate_3/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1268 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_3/Input Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/C Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1269 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_3/Input Register_4Bit_0/Mux_D_Flip_Fop_2/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1270 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_3/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1271 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1272 Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_3/Input Register_4Bit_0/Mux_D_Flip_Fop_2/gate_1/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1273 Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_3/Input Register_4Bit_0/Mux_D_Flip_Fop_2/gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1274 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_1/Input Register_4Bit_0/Mux_D_Flip_Fop_2/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_2/gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1275 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_1/Input Register_4Bit_0/Mux_D_Flip_Fop_2/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_2/gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1276 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_0/Input Register_4Bit_0/Mux_D_Flip_Fop_2/NAND_0/Output Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1277 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_0/Input Register_4Bit_0/Mux_D_Flip_Fop_2/NAND_0/Output GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1278 Register_4Bit_0/Mux_D_Flip_Fop_2/NAND_0/Output Register_4Bit_0/Mux_D_Flip_Fop_2/NAND_0/Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1279 Vdd Register_4Bit_0/Mux_D_Flip_Fop_2/D Register_4Bit_0/Mux_D_Flip_Fop_2/NAND_0/Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1280 Register_4Bit_0/Mux_D_Flip_Fop_2/NAND_0/a_n42_n10# Register_4Bit_0/Mux_D_Flip_Fop_2/NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1281 Register_4Bit_0/Mux_D_Flip_Fop_2/NAND_0/Output Register_4Bit_0/Mux_D_Flip_Fop_2/D Register_4Bit_0/Mux_D_Flip_Fop_2/NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1282 Register_4Bit_0/Mux_D_Flip_Fop_2/NAND_0/Input1 CLR Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1283 Register_4Bit_0/Mux_D_Flip_Fop_2/NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1284 Register_4Bit_0/Mux_D_Flip_Fop_2/a_n6_312# Ctrl0 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1285 Register_4Bit_0/Mux_D_Flip_Fop_2/a_176_313# Ctrl1 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1286 Register_4Bit_0/Mux_D_Flip_Fop_2/a_n6_312# Ctrl0 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1287 Register_4Bit_0/Mux_D_Flip_Fop_2/a_176_313# Ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1288 In5 Ctrl0 Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_186# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1289 In5 Register_4Bit_0/Mux_D_Flip_Fop_2/a_n6_312# Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_186# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1290 Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_186# Ctrl0 Out6 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=2240 ps=424 
+M1291 Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_186# Register_4Bit_0/Mux_D_Flip_Fop_2/a_n6_312# Out6 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=1252 ps=336 
+M1292 Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_186# Ctrl1 Register_4Bit_0/Mux_D_Flip_Fop_2/D Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1293 Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_186# Register_4Bit_0/Mux_D_Flip_Fop_2/a_176_313# Register_4Bit_0/Mux_D_Flip_Fop_2/D Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1294 Register_4Bit_0/Mux_D_Flip_Fop_2/D Ctrl1 Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1295 Register_4Bit_0/Mux_D_Flip_Fop_2/D Register_4Bit_0/Mux_D_Flip_Fop_2/a_176_313# Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1296 Out4 Ctrl0 Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1297 Out4 Register_4Bit_0/Mux_D_Flip_Fop_2/a_n6_312# Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1298 Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_29# Ctrl0 Out5 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1299 Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_29# Register_4Bit_0/Mux_D_Flip_Fop_2/a_n6_312# Out5 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1300 Out6 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_1/gate_3/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=1000 ps=180 
+M1301 Out6 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/C Register_4Bit_0/Mux_D_Flip_Fop_1/gate_3/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=500 ps=140 
+M1302 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1303 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1304 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/C CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1305 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1306 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_1/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_1/gate_1/Input Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1307 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_1/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_1/gate_1/Input Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1308 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_1/gate_0/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1309 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_1/gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1310 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_0/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1311 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_0/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1312 Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_0/Input CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1313 Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_0/Input CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1314 Out6 Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_5/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1315 Out6 Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_5/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1316 Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_5/Input Register_4Bit_0/Mux_D_Flip_Fop_1/gate_3/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1317 Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_5/Input Register_4Bit_0/Mux_D_Flip_Fop_1/gate_3/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1318 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_3/Input Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/C Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1319 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_3/Input Register_4Bit_0/Mux_D_Flip_Fop_1/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1320 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_3/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1321 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1322 Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_3/Input Register_4Bit_0/Mux_D_Flip_Fop_1/gate_1/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1323 Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_3/Input Register_4Bit_0/Mux_D_Flip_Fop_1/gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1324 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_1/Input Register_4Bit_0/Mux_D_Flip_Fop_1/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_1/gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1325 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_1/Input Register_4Bit_0/Mux_D_Flip_Fop_1/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_1/gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1326 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_0/Input Register_4Bit_0/Mux_D_Flip_Fop_1/NAND_0/Output Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1327 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_0/Input Register_4Bit_0/Mux_D_Flip_Fop_1/NAND_0/Output GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1328 Register_4Bit_0/Mux_D_Flip_Fop_1/NAND_0/Output Register_4Bit_0/Mux_D_Flip_Fop_1/NAND_0/Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1329 Vdd Register_4Bit_0/Mux_D_Flip_Fop_1/D Register_4Bit_0/Mux_D_Flip_Fop_1/NAND_0/Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1330 Register_4Bit_0/Mux_D_Flip_Fop_1/NAND_0/a_n42_n10# Register_4Bit_0/Mux_D_Flip_Fop_1/NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1331 Register_4Bit_0/Mux_D_Flip_Fop_1/NAND_0/Output Register_4Bit_0/Mux_D_Flip_Fop_1/D Register_4Bit_0/Mux_D_Flip_Fop_1/NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1332 Register_4Bit_0/Mux_D_Flip_Fop_1/NAND_0/Input1 CLR Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1333 Register_4Bit_0/Mux_D_Flip_Fop_1/NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1334 Register_4Bit_0/Mux_D_Flip_Fop_1/a_n6_312# Ctrl0 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1335 Register_4Bit_0/Mux_D_Flip_Fop_1/a_176_313# Ctrl1 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1336 Register_4Bit_0/Mux_D_Flip_Fop_1/a_n6_312# Ctrl0 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1337 Register_4Bit_0/Mux_D_Flip_Fop_1/a_176_313# Ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1338 In6 Ctrl0 Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_186# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1339 In6 Register_4Bit_0/Mux_D_Flip_Fop_1/a_n6_312# Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_186# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1340 Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_186# Ctrl0 Out7 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1780 ps=338 
+M1341 Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_186# Register_4Bit_0/Mux_D_Flip_Fop_1/a_n6_312# Out7 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=976 ps=266 
+M1342 Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_186# Ctrl1 Register_4Bit_0/Mux_D_Flip_Fop_1/D Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1343 Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_186# Register_4Bit_0/Mux_D_Flip_Fop_1/a_176_313# Register_4Bit_0/Mux_D_Flip_Fop_1/D Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1344 Register_4Bit_0/Mux_D_Flip_Fop_1/D Ctrl1 Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1345 Register_4Bit_0/Mux_D_Flip_Fop_1/D Register_4Bit_0/Mux_D_Flip_Fop_1/a_176_313# Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1346 Out5 Ctrl0 Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1347 Out5 Register_4Bit_0/Mux_D_Flip_Fop_1/a_n6_312# Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1348 Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_29# Ctrl0 Out6 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1349 Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_29# Register_4Bit_0/Mux_D_Flip_Fop_1/a_n6_312# Out6 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1350 Out7 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_0/gate_3/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=1000 ps=180 
+M1351 Out7 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/C Register_4Bit_0/Mux_D_Flip_Fop_0/gate_3/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=500 ps=140 
+M1352 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1353 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1354 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/C CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1355 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1356 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_0/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_0/gate_1/Input Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1357 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_0/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_0/gate_1/Input Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1358 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_0/gate_0/C Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1359 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_0/gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1360 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_0/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1361 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_0/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1362 Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_0/Input CLK Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1363 Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_0/Input CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1364 Out7 Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_5/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1365 Out7 Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_5/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1366 Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_5/Input Register_4Bit_0/Mux_D_Flip_Fop_0/gate_3/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1367 Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_5/Input Register_4Bit_0/Mux_D_Flip_Fop_0/gate_3/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1368 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_3/Input Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/C Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1369 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_3/Input Register_4Bit_0/Mux_D_Flip_Fop_0/gate_3/C Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1370 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_3/Input Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1371 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/Input Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1372 Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_3/Input Register_4Bit_0/Mux_D_Flip_Fop_0/gate_1/Input Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1373 Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_3/Input Register_4Bit_0/Mux_D_Flip_Fop_0/gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1374 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_1/Input Register_4Bit_0/Mux_D_Flip_Fop_0/gate_0/C Register_4Bit_0/Mux_D_Flip_Fop_0/gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1375 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_1/Input Register_4Bit_0/Mux_D_Flip_Fop_0/gate_1/C Register_4Bit_0/Mux_D_Flip_Fop_0/gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1376 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_0/Input Register_4Bit_0/Mux_D_Flip_Fop_0/NAND_0/Output Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1377 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_0/Input Register_4Bit_0/Mux_D_Flip_Fop_0/NAND_0/Output GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1378 Register_4Bit_0/Mux_D_Flip_Fop_0/NAND_0/Output Register_4Bit_0/Mux_D_Flip_Fop_0/NAND_0/Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1379 Vdd Register_4Bit_0/Mux_D_Flip_Fop_0/D Register_4Bit_0/Mux_D_Flip_Fop_0/NAND_0/Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1380 Register_4Bit_0/Mux_D_Flip_Fop_0/NAND_0/a_n42_n10# Register_4Bit_0/Mux_D_Flip_Fop_0/NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1381 Register_4Bit_0/Mux_D_Flip_Fop_0/NAND_0/Output Register_4Bit_0/Mux_D_Flip_Fop_0/D Register_4Bit_0/Mux_D_Flip_Fop_0/NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1382 Register_4Bit_0/Mux_D_Flip_Fop_0/NAND_0/Input1 CLR Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1383 Register_4Bit_0/Mux_D_Flip_Fop_0/NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1384 Register_4Bit_0/Mux_D_Flip_Fop_0/a_n6_312# Ctrl0 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1385 Register_4Bit_0/Mux_D_Flip_Fop_0/a_176_313# Ctrl1 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1386 Register_4Bit_0/Mux_D_Flip_Fop_0/a_n6_312# Ctrl0 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1387 Register_4Bit_0/Mux_D_Flip_Fop_0/a_176_313# Ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1388 In7 Ctrl0 Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_186# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1389 In7 Register_4Bit_0/Mux_D_Flip_Fop_0/a_n6_312# Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_186# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1390 Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_186# Ctrl0 SR Vdd pfet w=20 l=4
++ ad=0 pd=0 as=440 ps=84 
+M1391 Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_186# Register_4Bit_0/Mux_D_Flip_Fop_0/a_n6_312# SR Gnd nfet w=12 l=4
++ ad=0 pd=0 as=264 ps=68 
+M1392 Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_186# Ctrl1 Register_4Bit_0/Mux_D_Flip_Fop_0/D Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1393 Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_186# Register_4Bit_0/Mux_D_Flip_Fop_0/a_176_313# Register_4Bit_0/Mux_D_Flip_Fop_0/D Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1394 Register_4Bit_0/Mux_D_Flip_Fop_0/D Ctrl1 Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1395 Register_4Bit_0/Mux_D_Flip_Fop_0/D Register_4Bit_0/Mux_D_Flip_Fop_0/a_176_313# Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1396 Out6 Ctrl0 Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1397 Out6 Register_4Bit_0/Mux_D_Flip_Fop_0/a_n6_312# Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1398 Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_29# Ctrl0 Out7 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1399 Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_29# Register_4Bit_0/Mux_D_Flip_Fop_0/a_n6_312# Out7 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+C0 Vdd Register_4Bit_0/Mux_D_Flip_Fop_3/gate_0/Input 2.8fF
+C1 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_0/Input Vdd 2.8fF
+C2 Vdd Register_4Bit_1/Mux_D_Flip_Fop_1/gate_0/Input 2.8fF
+C3 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_0/Input Vdd 2.8fF
+C4 Vdd Register_4Bit_1/Mux_D_Flip_Fop_0/gate_0/Input 2.8fF
+C5 Vdd Register_4Bit_0/Mux_D_Flip_Fop_1/gate_0/Input 2.8fF
+C6 Vdd Register_4Bit_0/Mux_D_Flip_Fop_2/gate_0/Input 2.8fF
+C7 Vdd Register_4Bit_0/Mux_D_Flip_Fop_0/gate_0/Input 2.8fF
+C8 Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_29# gnd! 24.2fF
+C9 SR gnd! 7.5fF
+C10 Register_4Bit_0/Mux_D_Flip_Fop_0/a_4_186# gnd! 21.0fF
+C11 In7 gnd! 6.8fF
+C12 Register_4Bit_0/Mux_D_Flip_Fop_0/a_176_313# gnd! 18.3fF
+C13 Register_4Bit_0/Mux_D_Flip_Fop_0/a_n6_312# gnd! 29.3fF
+C14 Register_4Bit_0/Mux_D_Flip_Fop_0/D gnd! 32.3fF
+C15 Register_4Bit_0/Mux_D_Flip_Fop_0/NAND_0/Input1 gnd! 10.8fF
+C16 Register_4Bit_0/Mux_D_Flip_Fop_0/NAND_0/Output gnd! 9.8fF
+C17 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_0/Input gnd! 13.0fF
+C18 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_0/C gnd! 41.0fF
+C19 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_1/Input gnd! 19.8fF
+C20 Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_3/Input gnd! 8.5fF
+C21 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/Input gnd! 27.5fF
+C22 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_2/C gnd! 40.4fF
+C23 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_3/Input gnd! 19.5fF
+C24 Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_5/Input gnd! 8.8fF
+C25 Register_4Bit_0/Mux_D_Flip_Fop_0/Inverter_0/Input gnd! 11.8fF
+C26 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_1/C gnd! 17.8fF
+C27 Register_4Bit_0/Mux_D_Flip_Fop_0/gate_3/C gnd! 18.1fF
+C28 Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_29# gnd! 24.2fF
+C29 Out7 gnd! 147.0fF
+C30 Register_4Bit_0/Mux_D_Flip_Fop_1/a_4_186# gnd! 21.0fF
+C31 In6 gnd! 6.5fF
+C32 Register_4Bit_0/Mux_D_Flip_Fop_1/a_176_313# gnd! 18.3fF
+C33 Register_4Bit_0/Mux_D_Flip_Fop_1/a_n6_312# gnd! 29.3fF
+C34 Register_4Bit_0/Mux_D_Flip_Fop_1/D gnd! 32.3fF
+C35 Register_4Bit_0/Mux_D_Flip_Fop_1/NAND_0/Input1 gnd! 10.8fF
+C36 Register_4Bit_0/Mux_D_Flip_Fop_1/NAND_0/Output gnd! 9.8fF
+C37 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_0/Input gnd! 13.0fF
+C38 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_0/C gnd! 41.0fF
+C39 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_1/Input gnd! 19.8fF
+C40 Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_3/Input gnd! 8.5fF
+C41 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/Input gnd! 27.5fF
+C42 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_2/C gnd! 40.4fF
+C43 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_3/Input gnd! 19.5fF
+C44 Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_5/Input gnd! 8.8fF
+C45 Register_4Bit_0/Mux_D_Flip_Fop_1/Inverter_0/Input gnd! 11.8fF
+C46 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_1/C gnd! 17.8fF
+C47 Register_4Bit_0/Mux_D_Flip_Fop_1/gate_3/C gnd! 18.1fF
+C48 Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_29# gnd! 24.2fF
+C49 Out6 gnd! 365.9fF
+C50 Register_4Bit_0/Mux_D_Flip_Fop_2/a_4_186# gnd! 21.0fF
+C51 In5 gnd! 6.5fF
+C52 Register_4Bit_0/Mux_D_Flip_Fop_2/a_176_313# gnd! 18.3fF
+C53 Register_4Bit_0/Mux_D_Flip_Fop_2/a_n6_312# gnd! 29.3fF
+C54 Register_4Bit_0/Mux_D_Flip_Fop_2/D gnd! 32.3fF
+C55 Register_4Bit_0/Mux_D_Flip_Fop_2/NAND_0/Input1 gnd! 10.8fF
+C56 Register_4Bit_0/Mux_D_Flip_Fop_2/NAND_0/Output gnd! 9.8fF
+C57 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_0/Input gnd! 13.0fF
+C58 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_0/C gnd! 41.0fF
+C59 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_1/Input gnd! 19.8fF
+C60 Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_3/Input gnd! 8.5fF
+C61 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/Input gnd! 27.5fF
+C62 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_2/C gnd! 40.4fF
+C63 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_3/Input gnd! 19.5fF
+C64 Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_5/Input gnd! 8.8fF
+C65 Register_4Bit_0/Mux_D_Flip_Fop_2/Inverter_0/Input gnd! 11.8fF
+C66 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_1/C gnd! 17.8fF
+C67 Register_4Bit_0/Mux_D_Flip_Fop_2/gate_3/C gnd! 18.1fF
+C68 Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_29# gnd! 24.2fF
+C69 Out5 gnd! 342.1fF
+C70 Register_4Bit_0/Mux_D_Flip_Fop_3/a_4_186# gnd! 21.0fF
+C71 In4 gnd! 6.9fF
+C72 Register_4Bit_0/Mux_D_Flip_Fop_3/a_176_313# gnd! 18.3fF
+C73 Register_4Bit_0/Mux_D_Flip_Fop_3/a_n6_312# gnd! 29.3fF
+C74 Register_4Bit_0/Mux_D_Flip_Fop_3/D gnd! 32.3fF
+C75 Register_4Bit_0/Mux_D_Flip_Fop_3/NAND_0/Input1 gnd! 10.8fF
+C76 Register_4Bit_0/Mux_D_Flip_Fop_3/NAND_0/Output gnd! 9.8fF
+C77 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_0/Input gnd! 13.0fF
+C78 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_0/C gnd! 41.0fF
+C79 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_1/Input gnd! 19.8fF
+C80 Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_3/Input gnd! 8.5fF
+C81 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/Input gnd! 27.5fF
+C82 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_2/C gnd! 40.4fF
+C83 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_3/Input gnd! 19.5fF
+C84 Out4 gnd! 358.1fF
+C85 Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_5/Input gnd! 8.8fF
+C86 Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_0/Input gnd! 11.8fF
+C87 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_1/C gnd! 17.8fF
+C88 Register_4Bit_0/Mux_D_Flip_Fop_3/gate_3/C gnd! 18.1fF
+C89 Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_29# gnd! 24.2fF
+C90 Register_4Bit_1/Mux_D_Flip_Fop_0/a_4_186# gnd! 21.0fF
+C91 In3 gnd! 6.8fF
+C92 Register_4Bit_1/Mux_D_Flip_Fop_0/a_176_313# gnd! 18.3fF
+C93 Register_4Bit_1/Mux_D_Flip_Fop_0/a_n6_312# gnd! 29.3fF
+C94 Register_4Bit_1/Mux_D_Flip_Fop_0/D gnd! 32.3fF
+C95 Register_4Bit_1/Mux_D_Flip_Fop_0/NAND_0/Input1 gnd! 10.8fF
+C96 Register_4Bit_1/Mux_D_Flip_Fop_0/NAND_0/Output gnd! 9.8fF
+C97 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_0/Input gnd! 13.0fF
+C98 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_0/C gnd! 41.0fF
+C99 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_1/Input gnd! 19.8fF
+C100 Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_3/Input gnd! 8.5fF
+C101 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/Input gnd! 27.5fF
+C102 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_2/C gnd! 40.4fF
+C103 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_3/Input gnd! 19.5fF
+C104 Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_5/Input gnd! 8.8fF
+C105 Register_4Bit_1/Mux_D_Flip_Fop_0/Inverter_0/Input gnd! 11.8fF
+C106 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_1/C gnd! 17.8fF
+C107 Register_4Bit_1/Mux_D_Flip_Fop_0/gate_3/C gnd! 18.1fF
+C108 Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_29# gnd! 24.2fF
+C109 Out3 gnd! 359.9fF
+C110 Register_4Bit_1/Mux_D_Flip_Fop_1/a_4_186# gnd! 21.0fF
+C111 In2 gnd! 6.5fF
+C112 Register_4Bit_1/Mux_D_Flip_Fop_1/a_176_313# gnd! 18.3fF
+C113 Register_4Bit_1/Mux_D_Flip_Fop_1/a_n6_312# gnd! 29.3fF
+C114 Register_4Bit_1/Mux_D_Flip_Fop_1/D gnd! 32.3fF
+C115 Register_4Bit_1/Mux_D_Flip_Fop_1/NAND_0/Input1 gnd! 10.8fF
+C116 Register_4Bit_1/Mux_D_Flip_Fop_1/NAND_0/Output gnd! 9.8fF
+C117 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_0/Input gnd! 13.0fF
+C118 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_0/C gnd! 41.0fF
+C119 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_1/Input gnd! 19.8fF
+C120 Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_3/Input gnd! 8.5fF
+C121 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/Input gnd! 27.5fF
+C122 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_2/C gnd! 40.4fF
+C123 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_3/Input gnd! 19.5fF
+C124 Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_5/Input gnd! 8.8fF
+C125 Register_4Bit_1/Mux_D_Flip_Fop_1/Inverter_0/Input gnd! 11.8fF
+C126 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_1/C gnd! 17.8fF
+C127 Register_4Bit_1/Mux_D_Flip_Fop_1/gate_3/C gnd! 18.1fF
+C128 Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_29# gnd! 24.2fF
+C129 Out2 gnd! 370.7fF
+C130 Register_4Bit_1/Mux_D_Flip_Fop_2/a_4_186# gnd! 21.0fF
+C131 In1 gnd! 6.6fF
+C132 Register_4Bit_1/Mux_D_Flip_Fop_2/a_176_313# gnd! 18.3fF
+C133 Register_4Bit_1/Mux_D_Flip_Fop_2/a_n6_312# gnd! 29.3fF
+C134 Register_4Bit_1/Mux_D_Flip_Fop_2/D gnd! 32.3fF
+C135 Register_4Bit_1/Mux_D_Flip_Fop_2/NAND_0/Input1 gnd! 10.8fF
+C136 Register_4Bit_1/Mux_D_Flip_Fop_2/NAND_0/Output gnd! 9.8fF
+C137 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_0/Input gnd! 13.0fF
+C138 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_0/C gnd! 41.0fF
+C139 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_1/Input gnd! 19.8fF
+C140 Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_3/Input gnd! 8.5fF
+C141 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/Input gnd! 27.5fF
+C142 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_2/C gnd! 40.4fF
+C143 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_3/Input gnd! 19.5fF
+C144 Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_5/Input gnd! 8.8fF
+C145 Register_4Bit_1/Mux_D_Flip_Fop_2/Inverter_0/Input gnd! 11.8fF
+C146 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_1/C gnd! 17.8fF
+C147 Register_4Bit_1/Mux_D_Flip_Fop_2/gate_3/C gnd! 18.1fF
+C148 Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_29# gnd! 24.2fF
+C149 SL gnd! 7.2fF
+C150 Out1 gnd! 345.3fF
+C151 Register_4Bit_1/Mux_D_Flip_Fop_3/a_4_186# gnd! 21.0fF
+C152 In0 gnd! 7.0fF
+C153 Register_4Bit_1/Mux_D_Flip_Fop_3/a_176_313# gnd! 18.3fF
+C154 Register_4Bit_1/Mux_D_Flip_Fop_3/a_n6_312# gnd! 29.3fF
+C155 Register_4Bit_1/Mux_D_Flip_Fop_3/D gnd! 32.3fF
+C156 Register_4Bit_1/Mux_D_Flip_Fop_3/NAND_0/Input1 gnd! 10.8fF
+C157 Vdd gnd! 1052.5fF
+C158 Register_4Bit_1/Mux_D_Flip_Fop_3/NAND_0/Output gnd! 9.8fF
+C159 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_0/Input gnd! 13.0fF
+C160 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_0/C gnd! 41.0fF
+C161 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_1/Input gnd! 19.8fF
+C162 Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_3/Input gnd! 8.5fF
+C163 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/Input gnd! 27.5fF
+C164 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_2/C gnd! 40.4fF
+C165 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_3/Input gnd! 19.5fF
+C166 Out0 gnd! 333.2fF
+C167 Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_5/Input gnd! 8.8fF
+C168 Register_4Bit_1/Mux_D_Flip_Fop_3/Inverter_0/Input gnd! 11.8fF
+C169 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_1/C gnd! 17.8fF
+C170 Register_4Bit_1/Mux_D_Flip_Fop_3/gate_3/C gnd! 18.1fF
+
+.include usc-spice.usc-spice
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+Vin1 CLK 0 pulse(0 2.8 2ns 0.1ns 0.1ns 20ns 40ns)
+Vin2 Ctrl0 0 pulse(0 2.8 0ns 0.1ns 0.1ns 400ns 750ns)
+Vin3 Ctrl1 0 pulse(2.8 0 0ns 0.1ns 0.1ns 400ns 750ns)
+Vin4 In0 0 pulse(0 2.8 0ns 0.1ns 0.1ns 600ns 600ns)
+Vin5 In1 0 pulse(0 2.8 0ns 0.1ns 0.1ns 600ns 600ns)
+Vin6 In2 0 pulse(0 2.8 0ns 0.1ns 0.1ns 600ns 600ns)
+Vin7 In3 0 pulse(0 2.8 0ns 0.1ns 0.1ns 600ns 600ns)
+Vin8 In4 0 pulse(0 2.8 0ns 0.1ns 0.1ns 300ns 600ns)
+Vin9 In5 0 pulse(2.8 0 0ns 0.1ns 0.1ns 300ns 600ns)
+Vin10 In6 0 pulse(0 2.8 0ns 0.1ns 0.1ns 300ns 600ns)
+Vin11 In7 0 pulse(0 2.8 0ns 0.1ns 0.1ns 600ns 600ns)
+Vin12 SL 0 pulse(0 0 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin13 SR 0 pulse(2.8 2.8 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin14 CLR 0 pulse(0 2.8 0ns 0.1ns 0.1ns 60ns 750ns)
+.tran 5ns 750ns
+.probe
+.end

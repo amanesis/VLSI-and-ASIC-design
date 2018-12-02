@@ -1,0 +1,104 @@
+| units: 30 tech: scmos format: MIT
+p gate_3/C gate_3/Input Q 10 20 1288 219
+n gate_2/C gate_3/Input Q 10 10 1288 185
+p gate_2/C Vdd gate_3/C 4 20 1150 225
+n gate_2/C GND gate_3/C 4 10 1150 193
+p CLK Vdd gate_2/C 4 20 1076 225
+n CLK GND gate_2/C 4 10 1076 193
+p gate_1/C gate_1/Input gate_2/Input 10 20 858 219
+n gate_0/C gate_1/Input gate_2/Input 10 10 858 185
+p gate_0/C Vdd gate_1/C 4 20 720 225
+n gate_0/C GND gate_1/C 4 10 720 193
+p Inverter_0/Input Vdd gate_0/C 4 20 646 225
+n Inverter_0/Input GND gate_0/C 4 10 646 193
+p CLK Vdd Inverter_0/Input 4 20 548 231
+n CLK GND Inverter_0/Input 4 10 548 199
+p Inverter_5/Input Vdd Q 4 20 1378 345
+n Inverter_5/Input GND Q 4 10 1378 313
+p gate_3/Input Vdd Inverter_5/Input 4 20 1290 345
+n gate_3/Input GND Inverter_5/Input 4 10 1290 313
+p gate_2/C gate_2/Input gate_3/Input 10 20 1194 331
+n gate_3/C gate_2/Input gate_3/Input 10 10 1194 297
+p Inverter_3/Input Vdd gate_2/Input 4 20 948 345
+n Inverter_3/Input GND gate_2/Input 4 10 948 313
+p gate_1/Input Vdd Inverter_3/Input 4 20 860 345
+n gate_1/Input GND Inverter_3/Input 4 10 860 313
+p gate_0/C gate_0/Input gate_1/Input 10 20 764 331
+n gate_1/C gate_0/Input gate_1/Input 10 10 764 297
+p NAND_0/Output Vdd gate_0/Input 4 20 584 380
+n NAND_0/Output GND gate_0/Input 4 10 584 348
+p NAND_0/Input1 Vdd NAND_0/Output 4 20 437 385
+p D NAND_0/Output Vdd 4 20 505 385
+n NAND_0/Input1 GND NAND_0/a_n42_n10# 4 10 437 351
+n D NAND_0/a_n42_n10# NAND_0/Output 4 10 505 351
+p CLR Vdd NAND_0/Input1 4 20 331 379
+n CLR GND NAND_0/Input1 4 10 331 347
+p Ctrl0 Vdd a_n6_312# 4 20 -10 344
+p ctrl1 Vdd a_176_313# 4 20 172 345
+n Ctrl0 GND a_n6_312# 4 10 -10 312
+n ctrl1 GND a_176_313# 4 10 172 313
+n Ctrl0 a_4_186# Input1 4 12 4 258
+p a_n6_312# a_4_186# Input1 4 20 42 258
+p Ctrl0 Input2 a_4_186# 4 20 4 182
+n a_n6_312# Input2 a_4_186# 4 12 48 182
+n ctrl1 D a_4_186# 4 12 186 259
+p a_176_313# D a_4_186# 4 20 224 259
+p ctrl1 a_4_29# D 4 20 186 183
+n a_176_313# a_4_29# D 4 12 230 183
+n Ctrl0 a_4_29# Input3 4 12 4 111
+p a_n6_312# a_4_29# Input3 4 20 42 111
+p Ctrl0 Q a_4_29# 4 20 4 25
+n a_n6_312# Q a_4_29# 4 12 50 25
+C gate_0/Input Vdd 2.8
+C a_4_29# GND 24.2
+R a_4_29# 63
+C Input3 GND 5.9
+R Input3 23
+C Input2 GND 6.2
+R Input2 24
+C a_4_186# GND 20.5
+R a_4_186# 62
+C Input1 GND 6.0
+R Input1 27
+C a_176_313# GND 18.7
+R a_176_313# 444
+C a_n6_312# GND 29.3
+R a_n6_312# 854
+C ctrl1 GND 13.2
+R ctrl1 460
+R Ctrl0 901
+R CLR 130
+R NAND_0/a_n42_n10# 20
+R D 293
+C NAND_0/Input1 GND 10.8
+R NAND_0/Input1 199
+C Vdd GND 124.1
+R Vdd 175
+C NAND_0/Output GND 10.2
+R NAND_0/Output 130
+C gate_0/Input GND 13.0
+R gate_0/Input 41
+C gate_0/C GND 41.0
+R gate_0/C 195
+C gate_1/Input GND 19.8
+R gate_1/Input 156
+C Inverter_3/Input GND 8.5
+R Inverter_3/Input 125
+C gate_2/Input GND 27.5
+R gate_2/Input 69
+C gate_2/C GND 40.4
+R gate_2/C 195
+C gate_3/Input GND 19.5
+R gate_3/Input 156
+R GND 213
+C Q GND 122.6
+R Q 135
+C Inverter_5/Input GND 8.8
+R Inverter_5/Input 125
+R CLK 496
+C Inverter_0/Input GND 11.8
+R Inverter_0/Input 183
+C gate_1/C GND 17.8
+R gate_1/C 77
+C gate_3/C GND 18.1
+R gate_3/C 77

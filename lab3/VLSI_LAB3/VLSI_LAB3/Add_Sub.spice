@@ -1,0 +1,173 @@
+* SPICE3 file created from Add_Sub.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 a_58_940# Input2 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=9440 ps=1944 
+M1001 Vdd AbS a_58_940# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1002 a_416_936# AbS Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1003 a_198_904# a_58_940# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1004 a_416_936# AbS GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=4820 ps=1484 
+M1005 a_58_906# Input2 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1006 a_58_940# AbS a_58_906# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1007 a_198_904# a_58_940# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1008 a_58_840# Input2 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1009 a_58_806# AbS a_58_840# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1010 Vdd AbS MuxOut Gnd nfet w=12 l=4
++ ad=264 pd=68 as=528 ps=136 
+M1011 Vdd a_416_936# MuxOut Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1012 a_206_838# a_58_806# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1013 Output a_198_904# a_206_838# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1014 a_58_806# Input2 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1015 GND AbS a_58_806# Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1016 Output a_58_806# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1017 GND a_198_904# Output Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1018 MuxOut AbS Cin Vdd pfet w=20 l=4
++ ad=0 pd=0 as=440 ps=84 
+M1019 MuxOut a_416_936# Cin Gnd nfet w=12 l=4
++ ad=0 pd=0 as=264 ps=68 
+M1020 a_139_667# Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1021 Vdd Output a_139_667# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1022 a_329_627# a_139_667# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1023 a_483_669# a_287_377# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1024 Vdd MuxOut a_483_669# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1025 a_673_629# a_483_669# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1026 a_139_633# Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1027 a_139_667# Output a_139_633# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1028 a_329_627# a_139_667# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1029 a_483_635# a_287_377# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1030 a_483_669# MuxOut a_483_635# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1031 a_139_513# Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1032 Vdd Output a_139_513# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1033 a_673_629# a_483_669# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1034 a_819_593# a_329_627# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1035 a_819_559# a_673_629# a_819_593# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1036 Cout a_819_559# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1037 a_819_559# a_329_627# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1038 GND a_673_629# a_819_559# Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1039 Cout a_819_559# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1040 a_279_477# a_139_513# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1041 a_483_515# a_287_377# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1042 Vdd MuxOut a_483_515# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1043 a_139_479# Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1044 a_139_513# Output a_139_479# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1045 a_279_477# a_139_513# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1046 a_139_413# Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1047 a_139_379# Output a_139_413# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1048 a_623_479# a_483_515# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1049 a_483_481# a_287_377# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1050 a_483_515# MuxOut a_483_481# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1051 a_623_479# a_483_515# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1052 a_287_411# a_139_379# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1053 a_287_377# a_279_477# a_287_411# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1054 a_483_415# a_287_377# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1055 a_483_381# MuxOut a_483_415# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1056 a_139_379# Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1057 GND Output a_139_379# Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1058 a_631_413# a_483_381# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1059 Sum a_623_479# a_631_413# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1060 a_287_377# a_139_379# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1061 GND a_279_477# a_287_377# Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1062 a_483_381# a_287_377# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1063 GND MuxOut a_483_381# Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1064 Sum a_483_381# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1065 GND a_623_479# Sum Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+C0 a_673_629# Vdd 2.6fF
+C1 a_329_627# Vdd 2.8fF
+C2 Sum gnd! 7.8fF
+C3 a_483_381# gnd! 13.8fF
+C4 a_623_479# gnd! 13.6fF
+C5 a_139_379# gnd! 13.8fF
+C6 a_483_515# gnd! 12.1fF
+C7 a_279_477# gnd! 13.6fF
+C8 a_819_559# gnd! 13.8fF
+C9 a_139_513# gnd! 12.1fF
+C10 a_673_629# gnd! 20.8fF
+C11 a_483_669# gnd! 14.8fF
+C12 a_139_667# gnd! 14.8fF
+C13 a_329_627# gnd! 35.2fF
+C14 a_287_377# gnd! 29.7fF
+C15 Input1 gnd! 19.5fF
+C16 MuxOut gnd! 37.5fF
+C17 Output gnd! 36.9fF
+C18 a_58_806# gnd! 14.2fF
+C19 a_198_904# gnd! 13.6fF
+C20 a_416_936# gnd! 17.8fF
+C21 a_58_940# gnd! 12.6fF
+C22 Input2 gnd! 9.2fF
+C23 Vdd gnd! 241.1fF
+
+.include usc-spice.usc-spice
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+Vin1 Input1 0 pulse(0 2.8 0ns 0.1ns 0.1ns 25ns 50ns)
+Vin2 Input2 0 pulse(0 2.8 0ns 0.1ns 0.1ns 10ns 20ns)
+Vin3 AbS 0 pulse(2.8 0 0ns 0.1ns 0.1ns 150ns 300ns)
+Vin4 Cin 0 pulse(0 2.8 0ns 0.1ns 0.1ns 70ns 140ns)
+.tran 5ns 300ns
+.probe
+.end

@@ -1,0 +1,31 @@
+| units: 30 tech: scmos format: MIT
+p Input1 Vdd a_n44_94# 4 20 -48 94
+p Input2 a_n44_94# Vdd 4 20 20 94
+p a_n44_94# Vdd a_96_58# 4 20 92 90
+n Input1 GND a_n44_60# 4 10 -48 60
+n Input2 a_n44_60# a_n44_94# 4 10 20 60
+n a_n44_94# GND a_96_58# 4 10 92 58
+p Input1 Vdd a_n44_n6# 4 20 -48 -6
+p Input2 a_n44_n6# a_n44_n40# 4 20 20 -6
+p a_n44_n40# Vdd a_104_n8# 4 20 100 -8
+p a_96_58# a_104_n8# Output 4 20 168 -8
+n Input1 GND a_n44_n40# 4 10 -48 -40
+n Input2 a_n44_n40# GND 4 10 20 -40
+n a_n44_n40# GND Output 4 10 100 -42
+n a_96_58# Output GND 4 10 168 -42
+C Output GND 6.1
+R Output 24
+C a_n44_n40# GND 13.8
+R a_n44_n40# 195
+R a_n44_60# 20
+R GND 80
+C a_96_58# GND 13.6
+R a_96_58# 301
+C a_n44_94# GND 12.1
+R a_n44_94# 155
+C Vdd GND 41.5
+R Vdd 51
+C Input2 GND 9.2
+R Input2 364
+C Input1 GND 9.2
+R Input1 364

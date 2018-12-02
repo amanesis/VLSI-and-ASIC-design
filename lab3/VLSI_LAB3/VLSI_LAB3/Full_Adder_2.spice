@@ -1,0 +1,127 @@
+* SPICE3 file created from Full_Adder.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 a_n266_146# Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=6720 ps=1392 
+M1001 Vdd Input2 a_n266_146# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1002 a_n76_106# a_n266_146# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1003 a_78_148# a_n118_n144# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1004 Vdd Cin a_78_148# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1005 a_268_108# a_78_148# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1006 a_n266_112# Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=3520 ps=1084 
+M1007 a_n266_146# Input2 a_n266_112# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1008 a_n76_106# a_n266_146# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1009 a_78_114# a_n118_n144# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1010 a_78_148# Cin a_78_114# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1011 a_n266_n8# Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1012 Vdd Input2 a_n266_n8# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1013 a_268_108# a_78_148# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1014 a_414_72# a_n76_106# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1015 a_414_38# a_268_108# a_414_72# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1016 Cout a_414_38# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1017 a_414_38# a_n76_106# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1018 GND a_268_108# a_414_38# Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1019 Cout a_414_38# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1020 a_n126_n44# a_n266_n8# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1021 a_78_n6# a_n118_n144# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1022 Vdd Cin a_78_n6# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1023 a_n266_n42# Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1024 a_n266_n8# Input2 a_n266_n42# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1025 a_n126_n44# a_n266_n8# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1026 a_n266_n108# Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1027 a_n266_n142# Input2 a_n266_n108# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1028 a_218_n42# a_78_n6# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1029 a_78_n40# a_n118_n144# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1030 a_78_n6# Cin a_78_n40# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1031 a_218_n42# a_78_n6# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1032 a_n118_n110# a_n266_n142# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1033 a_n118_n144# a_n126_n44# a_n118_n110# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1034 a_78_n106# a_n118_n144# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1035 a_78_n140# Cin a_78_n106# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1036 a_n266_n142# Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1037 GND Input2 a_n266_n142# Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1038 a_226_n108# a_78_n140# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1039 Sum a_218_n42# a_226_n108# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1040 a_n118_n144# a_n266_n142# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1041 GND a_n126_n44# a_n118_n144# Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1042 a_78_n140# a_n118_n144# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1043 GND Cin a_78_n140# Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1044 Sum a_78_n140# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1045 GND a_218_n42# Sum Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+C0 a_n76_106# Vdd 2.8fF
+C1 Vdd a_268_108# 2.6fF
+C2 Sum gnd! 7.8fF
+C3 a_78_n140# gnd! 14.2fF
+C4 a_218_n42# gnd! 13.6fF
+C5 a_n266_n142# gnd! 13.8fF
+C6 a_78_n6# gnd! 12.6fF
+C7 a_n126_n44# gnd! 13.6fF
+C8 a_414_38# gnd! 13.8fF
+C9 a_n266_n8# gnd! 12.1fF
+C10 a_268_108# gnd! 20.8fF
+C11 a_78_148# gnd! 15.3fF
+C12 a_n266_146# gnd! 14.8fF
+C13 Vdd gnd! 156.9fF
+C14 a_n76_106# gnd! 35.3fF
+C15 a_n118_n144# gnd! 29.7fF
+C16 Input2 gnd! 19.5fF
+C17 Input1 gnd! 19.5fF
+
+.include usc-spice.usc-spice
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+
+Vin1 Input1 0 pulse(0 2.8 0ns 0.1ns 0.1ns 250ns 500ns)
+Vin2 Input2 0 pulse(0 2.8 0ns 0.1ns 0.1ns 100ns 300ns)
+Vin3 Cin 0 pulse(0 2.8 520ns 0.1ns 0.1ns 400ns 500ns)
+.tran 5ns 1000ns
+.probe
+.end

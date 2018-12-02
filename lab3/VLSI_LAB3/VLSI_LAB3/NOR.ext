@@ -1,0 +1,20 @@
+timestamp 1540495531
+version 8.0
+tech scmos
+style lambda=0.30
+scale 1000 1000 30
+resistclasses 3100 2500 7500 83 84 41 1980000
+node "GND" 21 8.49 10 20 ndiff 340 108 0 0 0 0 1540 328 0 0 0 0 0 0
+node "Output" 24 6 32 20 ndiff 640 148 320 72 0 0 1180 256 0 0 0 0 0 0
+node "a_32_54#" 8 0 32 54 pdiff 0 0 1280 168 0 0 0 0 0 0 0 0 0 0
+node "Vdd" 3 1.71 10 54 pdiff 0 0 360 76 0 0 400 100 0 0 0 0 0 0
+node "Input2" 176 4.0144 96 0 p 0 0 0 0 376 196 0 0 0 0 0 0 0 0
+node "Input1" 176 4.0144 28 0 p 0 0 0 0 376 196 0 0 0 0 0 0 0 0
+cap "Input2" "Output" 0.4812
+cap "Input2" "GND" 0.4812
+cap "GND" "Input1" 0.4812
+cap "GND" "Output" 0.112
+fet nfet 96 20 97 21 40 28 "Gnd!" "Input2" 8 0 "Output" 10 0 "GND" 10 0
+fet nfet 28 20 29 21 40 28 "Gnd!" "Input1" 8 0 "GND" 10 0 "Output" 10 0
+fet pfet 96 54 97 55 80 48 "Vdd!" "Input2" 8 0 "a_32_54#" 20 0 "Output" 20 0
+fet pfet 28 54 29 55 80 48 "Vdd!" "Input1" 8 0 "Vdd" 20 0 "a_32_54#" 20 0

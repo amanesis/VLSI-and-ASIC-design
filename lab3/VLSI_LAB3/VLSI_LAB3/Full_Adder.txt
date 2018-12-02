@@ -1,0 +1,35 @@
+h Vdd
+l GND
+ana Input1 Input2 Output Cin Cout Sum Vdd GND
+l Input1
+l Input2
+l Cin
+s
+l Input1
+l Input2
+h Cin
+s
+l Input1
+h Input2
+l Cin
+s
+l Input1
+h Input2
+h Cin
+s
+h Input1
+l Input2
+l Cin
+s
+h Input1
+l Input2
+h Cin
+s
+h Input1
+h Input2
+l Cin
+s
+h Input1
+h Input2
+h Cin
+s

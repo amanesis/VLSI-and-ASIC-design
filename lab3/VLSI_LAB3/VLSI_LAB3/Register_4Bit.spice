@@ -1,0 +1,508 @@
+* SPICE3 file created from Register_4Bit.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 Out0 Mux_D_Flip_Fop_3/gate_3/C Mux_D_Flip_Fop_3/gate_3/Input Vdd pfet w=20 l=10
++ ad=1800 pd=340 as=1000 ps=180 
+M1001 Out0 Mux_D_Flip_Fop_3/gate_2/C Mux_D_Flip_Fop_3/gate_3/Input Gnd nfet w=10 l=10
++ ad=988 pd=268 as=500 ps=140 
+M1002 Mux_D_Flip_Fop_3/gate_3/C Mux_D_Flip_Fop_3/gate_2/C Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=25600 ps=4960 
+M1003 Mux_D_Flip_Fop_3/gate_3/C Mux_D_Flip_Fop_3/gate_2/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=12160 ps=3552 
+M1004 Mux_D_Flip_Fop_3/gate_2/C CLK Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1005 Mux_D_Flip_Fop_3/gate_2/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1006 Mux_D_Flip_Fop_3/gate_2/Input Mux_D_Flip_Fop_3/gate_1/C Mux_D_Flip_Fop_3/gate_1/Input Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1007 Mux_D_Flip_Fop_3/gate_2/Input Mux_D_Flip_Fop_3/gate_0/C Mux_D_Flip_Fop_3/gate_1/Input Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1008 Mux_D_Flip_Fop_3/gate_1/C Mux_D_Flip_Fop_3/gate_0/C Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1009 Mux_D_Flip_Fop_3/gate_1/C Mux_D_Flip_Fop_3/gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1010 Mux_D_Flip_Fop_3/gate_0/C Mux_D_Flip_Fop_3/Inverter_0/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1011 Mux_D_Flip_Fop_3/gate_0/C Mux_D_Flip_Fop_3/Inverter_0/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1012 Mux_D_Flip_Fop_3/Inverter_0/Input CLK Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1013 Mux_D_Flip_Fop_3/Inverter_0/Input CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1014 Out0 Mux_D_Flip_Fop_3/Inverter_5/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1015 Out0 Mux_D_Flip_Fop_3/Inverter_5/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1016 Mux_D_Flip_Fop_3/Inverter_5/Input Mux_D_Flip_Fop_3/gate_3/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1017 Mux_D_Flip_Fop_3/Inverter_5/Input Mux_D_Flip_Fop_3/gate_3/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1018 Mux_D_Flip_Fop_3/gate_3/Input Mux_D_Flip_Fop_3/gate_2/C Mux_D_Flip_Fop_3/gate_2/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1019 Mux_D_Flip_Fop_3/gate_3/Input Mux_D_Flip_Fop_3/gate_3/C Mux_D_Flip_Fop_3/gate_2/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1020 Mux_D_Flip_Fop_3/gate_2/Input Mux_D_Flip_Fop_3/Inverter_3/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1021 Mux_D_Flip_Fop_3/gate_2/Input Mux_D_Flip_Fop_3/Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1022 Mux_D_Flip_Fop_3/Inverter_3/Input Mux_D_Flip_Fop_3/gate_1/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1023 Mux_D_Flip_Fop_3/Inverter_3/Input Mux_D_Flip_Fop_3/gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1024 Mux_D_Flip_Fop_3/gate_1/Input Mux_D_Flip_Fop_3/gate_0/C Mux_D_Flip_Fop_3/gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1025 Mux_D_Flip_Fop_3/gate_1/Input Mux_D_Flip_Fop_3/gate_1/C Mux_D_Flip_Fop_3/gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1026 Mux_D_Flip_Fop_3/gate_0/Input Mux_D_Flip_Fop_3/NAND_0/Output Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1027 Mux_D_Flip_Fop_3/gate_0/Input Mux_D_Flip_Fop_3/NAND_0/Output GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1028 Mux_D_Flip_Fop_3/NAND_0/Output Mux_D_Flip_Fop_3/NAND_0/Input1 Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1029 Mux_D_Flip_Fop_0/Vdd Mux_D_Flip_Fop_3/D Mux_D_Flip_Fop_3/NAND_0/Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1030 Mux_D_Flip_Fop_3/NAND_0/a_n42_n10# Mux_D_Flip_Fop_3/NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1031 Mux_D_Flip_Fop_3/NAND_0/Output Mux_D_Flip_Fop_3/D Mux_D_Flip_Fop_3/NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1032 Mux_D_Flip_Fop_3/NAND_0/Input1 CLR Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1033 Mux_D_Flip_Fop_3/NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1034 Mux_D_Flip_Fop_3/a_n6_312# Ctrl0 Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1035 Mux_D_Flip_Fop_3/a_176_313# Ctrl1 Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1036 Mux_D_Flip_Fop_3/a_n6_312# Ctrl0 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1037 Mux_D_Flip_Fop_3/a_176_313# Ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1038 In0 Ctrl0 Mux_D_Flip_Fop_3/a_4_186# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1039 In0 Mux_D_Flip_Fop_3/a_n6_312# Mux_D_Flip_Fop_3/a_4_186# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1040 Mux_D_Flip_Fop_3/a_4_186# Ctrl0 Out1 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=2240 ps=424 
+M1041 Mux_D_Flip_Fop_3/a_4_186# Mux_D_Flip_Fop_3/a_n6_312# Out1 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=1252 ps=336 
+M1042 Mux_D_Flip_Fop_3/a_4_186# Ctrl1 Mux_D_Flip_Fop_3/D Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1043 Mux_D_Flip_Fop_3/a_4_186# Mux_D_Flip_Fop_3/a_176_313# Mux_D_Flip_Fop_3/D Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1044 Mux_D_Flip_Fop_3/D Ctrl1 Mux_D_Flip_Fop_3/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1045 Mux_D_Flip_Fop_3/D Mux_D_Flip_Fop_3/a_176_313# Mux_D_Flip_Fop_3/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1046 SL Ctrl0 Mux_D_Flip_Fop_3/a_4_29# Gnd nfet w=12 l=4
++ ad=276 pd=70 as=0 ps=0 
+M1047 SL Mux_D_Flip_Fop_3/a_n6_312# Mux_D_Flip_Fop_3/a_4_29# Vdd pfet w=20 l=4
++ ad=460 pd=86 as=0 ps=0 
+M1048 Mux_D_Flip_Fop_3/a_4_29# Ctrl0 Out0 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1049 Mux_D_Flip_Fop_3/a_4_29# Mux_D_Flip_Fop_3/a_n6_312# Out0 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1050 Out1 Mux_D_Flip_Fop_2/gate_3/C Mux_D_Flip_Fop_2/gate_3/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=1000 ps=180 
+M1051 Out1 Mux_D_Flip_Fop_2/gate_2/C Mux_D_Flip_Fop_2/gate_3/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=500 ps=140 
+M1052 Mux_D_Flip_Fop_2/gate_3/C Mux_D_Flip_Fop_2/gate_2/C Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1053 Mux_D_Flip_Fop_2/gate_3/C Mux_D_Flip_Fop_2/gate_2/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1054 Mux_D_Flip_Fop_2/gate_2/C CLK Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1055 Mux_D_Flip_Fop_2/gate_2/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1056 Mux_D_Flip_Fop_2/gate_2/Input Mux_D_Flip_Fop_2/gate_1/C Mux_D_Flip_Fop_2/gate_1/Input Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1057 Mux_D_Flip_Fop_2/gate_2/Input Mux_D_Flip_Fop_2/gate_0/C Mux_D_Flip_Fop_2/gate_1/Input Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1058 Mux_D_Flip_Fop_2/gate_1/C Mux_D_Flip_Fop_2/gate_0/C Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1059 Mux_D_Flip_Fop_2/gate_1/C Mux_D_Flip_Fop_2/gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1060 Mux_D_Flip_Fop_2/gate_0/C Mux_D_Flip_Fop_2/Inverter_0/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1061 Mux_D_Flip_Fop_2/gate_0/C Mux_D_Flip_Fop_2/Inverter_0/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1062 Mux_D_Flip_Fop_2/Inverter_0/Input CLK Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1063 Mux_D_Flip_Fop_2/Inverter_0/Input CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1064 Out1 Mux_D_Flip_Fop_2/Inverter_5/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1065 Out1 Mux_D_Flip_Fop_2/Inverter_5/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1066 Mux_D_Flip_Fop_2/Inverter_5/Input Mux_D_Flip_Fop_2/gate_3/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1067 Mux_D_Flip_Fop_2/Inverter_5/Input Mux_D_Flip_Fop_2/gate_3/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1068 Mux_D_Flip_Fop_2/gate_3/Input Mux_D_Flip_Fop_2/gate_2/C Mux_D_Flip_Fop_2/gate_2/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1069 Mux_D_Flip_Fop_2/gate_3/Input Mux_D_Flip_Fop_2/gate_3/C Mux_D_Flip_Fop_2/gate_2/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1070 Mux_D_Flip_Fop_2/gate_2/Input Mux_D_Flip_Fop_2/Inverter_3/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1071 Mux_D_Flip_Fop_2/gate_2/Input Mux_D_Flip_Fop_2/Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1072 Mux_D_Flip_Fop_2/Inverter_3/Input Mux_D_Flip_Fop_2/gate_1/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1073 Mux_D_Flip_Fop_2/Inverter_3/Input Mux_D_Flip_Fop_2/gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1074 Mux_D_Flip_Fop_2/gate_1/Input Mux_D_Flip_Fop_2/gate_0/C Mux_D_Flip_Fop_2/gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1075 Mux_D_Flip_Fop_2/gate_1/Input Mux_D_Flip_Fop_2/gate_1/C Mux_D_Flip_Fop_2/gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1076 Mux_D_Flip_Fop_2/gate_0/Input Mux_D_Flip_Fop_2/NAND_0/Output Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1077 Mux_D_Flip_Fop_2/gate_0/Input Mux_D_Flip_Fop_2/NAND_0/Output GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1078 Mux_D_Flip_Fop_2/NAND_0/Output Mux_D_Flip_Fop_2/NAND_0/Input1 Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1079 Mux_D_Flip_Fop_0/Vdd Mux_D_Flip_Fop_2/D Mux_D_Flip_Fop_2/NAND_0/Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1080 Mux_D_Flip_Fop_2/NAND_0/a_n42_n10# Mux_D_Flip_Fop_2/NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1081 Mux_D_Flip_Fop_2/NAND_0/Output Mux_D_Flip_Fop_2/D Mux_D_Flip_Fop_2/NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1082 Mux_D_Flip_Fop_2/NAND_0/Input1 CLR Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1083 Mux_D_Flip_Fop_2/NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1084 Mux_D_Flip_Fop_2/a_n6_312# Ctrl0 Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1085 Mux_D_Flip_Fop_2/a_176_313# Ctrl1 Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1086 Mux_D_Flip_Fop_2/a_n6_312# Ctrl0 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1087 Mux_D_Flip_Fop_2/a_176_313# Ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1088 In1 Ctrl0 Mux_D_Flip_Fop_2/a_4_186# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1089 In1 Mux_D_Flip_Fop_2/a_n6_312# Mux_D_Flip_Fop_2/a_4_186# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1090 Mux_D_Flip_Fop_2/a_4_186# Ctrl0 Out2 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=2240 ps=424 
+M1091 Mux_D_Flip_Fop_2/a_4_186# Mux_D_Flip_Fop_2/a_n6_312# Out2 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=1252 ps=336 
+M1092 Mux_D_Flip_Fop_2/a_4_186# Ctrl1 Mux_D_Flip_Fop_2/D Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1093 Mux_D_Flip_Fop_2/a_4_186# Mux_D_Flip_Fop_2/a_176_313# Mux_D_Flip_Fop_2/D Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1094 Mux_D_Flip_Fop_2/D Ctrl1 Mux_D_Flip_Fop_2/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1095 Mux_D_Flip_Fop_2/D Mux_D_Flip_Fop_2/a_176_313# Mux_D_Flip_Fop_2/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1096 Out0 Ctrl0 Mux_D_Flip_Fop_2/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1097 Out0 Mux_D_Flip_Fop_2/a_n6_312# Mux_D_Flip_Fop_2/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1098 Mux_D_Flip_Fop_2/a_4_29# Ctrl0 Out1 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1099 Mux_D_Flip_Fop_2/a_4_29# Mux_D_Flip_Fop_2/a_n6_312# Out1 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1100 Out2 Mux_D_Flip_Fop_1/gate_3/C Mux_D_Flip_Fop_1/gate_3/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=1000 ps=180 
+M1101 Out2 Mux_D_Flip_Fop_1/gate_2/C Mux_D_Flip_Fop_1/gate_3/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=500 ps=140 
+M1102 Mux_D_Flip_Fop_1/gate_3/C Mux_D_Flip_Fop_1/gate_2/C Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1103 Mux_D_Flip_Fop_1/gate_3/C Mux_D_Flip_Fop_1/gate_2/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1104 Mux_D_Flip_Fop_1/gate_2/C CLK Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1105 Mux_D_Flip_Fop_1/gate_2/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1106 Mux_D_Flip_Fop_1/gate_2/Input Mux_D_Flip_Fop_1/gate_1/C Mux_D_Flip_Fop_1/gate_1/Input Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1107 Mux_D_Flip_Fop_1/gate_2/Input Mux_D_Flip_Fop_1/gate_0/C Mux_D_Flip_Fop_1/gate_1/Input Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1108 Mux_D_Flip_Fop_1/gate_1/C Mux_D_Flip_Fop_1/gate_0/C Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1109 Mux_D_Flip_Fop_1/gate_1/C Mux_D_Flip_Fop_1/gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1110 Mux_D_Flip_Fop_1/gate_0/C Mux_D_Flip_Fop_1/Inverter_0/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1111 Mux_D_Flip_Fop_1/gate_0/C Mux_D_Flip_Fop_1/Inverter_0/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1112 Mux_D_Flip_Fop_1/Inverter_0/Input CLK Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1113 Mux_D_Flip_Fop_1/Inverter_0/Input CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1114 Out2 Mux_D_Flip_Fop_1/Inverter_5/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1115 Out2 Mux_D_Flip_Fop_1/Inverter_5/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1116 Mux_D_Flip_Fop_1/Inverter_5/Input Mux_D_Flip_Fop_1/gate_3/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1117 Mux_D_Flip_Fop_1/Inverter_5/Input Mux_D_Flip_Fop_1/gate_3/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1118 Mux_D_Flip_Fop_1/gate_3/Input Mux_D_Flip_Fop_1/gate_2/C Mux_D_Flip_Fop_1/gate_2/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1119 Mux_D_Flip_Fop_1/gate_3/Input Mux_D_Flip_Fop_1/gate_3/C Mux_D_Flip_Fop_1/gate_2/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1120 Mux_D_Flip_Fop_1/gate_2/Input Mux_D_Flip_Fop_1/Inverter_3/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1121 Mux_D_Flip_Fop_1/gate_2/Input Mux_D_Flip_Fop_1/Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1122 Mux_D_Flip_Fop_1/Inverter_3/Input Mux_D_Flip_Fop_1/gate_1/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1123 Mux_D_Flip_Fop_1/Inverter_3/Input Mux_D_Flip_Fop_1/gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1124 Mux_D_Flip_Fop_1/gate_1/Input Mux_D_Flip_Fop_1/gate_0/C Mux_D_Flip_Fop_1/gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1125 Mux_D_Flip_Fop_1/gate_1/Input Mux_D_Flip_Fop_1/gate_1/C Mux_D_Flip_Fop_1/gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1126 Mux_D_Flip_Fop_1/gate_0/Input Mux_D_Flip_Fop_1/NAND_0/Output Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1127 Mux_D_Flip_Fop_1/gate_0/Input Mux_D_Flip_Fop_1/NAND_0/Output GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1128 Mux_D_Flip_Fop_1/NAND_0/Output Mux_D_Flip_Fop_1/NAND_0/Input1 Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1129 Mux_D_Flip_Fop_0/Vdd Mux_D_Flip_Fop_1/D Mux_D_Flip_Fop_1/NAND_0/Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1130 Mux_D_Flip_Fop_1/NAND_0/a_n42_n10# Mux_D_Flip_Fop_1/NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1131 Mux_D_Flip_Fop_1/NAND_0/Output Mux_D_Flip_Fop_1/D Mux_D_Flip_Fop_1/NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1132 Mux_D_Flip_Fop_1/NAND_0/Input1 CLR Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1133 Mux_D_Flip_Fop_1/NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1134 Mux_D_Flip_Fop_1/a_n6_312# Ctrl0 Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1135 Mux_D_Flip_Fop_1/a_176_313# Ctrl1 Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1136 Mux_D_Flip_Fop_1/a_n6_312# Ctrl0 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1137 Mux_D_Flip_Fop_1/a_176_313# Ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1138 In2 Ctrl0 Mux_D_Flip_Fop_1/a_4_186# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1139 In2 Mux_D_Flip_Fop_1/a_n6_312# Mux_D_Flip_Fop_1/a_4_186# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1140 Mux_D_Flip_Fop_1/a_4_186# Ctrl0 Out3 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1780 ps=338 
+M1141 Mux_D_Flip_Fop_1/a_4_186# Mux_D_Flip_Fop_1/a_n6_312# Out3 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=976 ps=266 
+M1142 Mux_D_Flip_Fop_1/a_4_186# Ctrl1 Mux_D_Flip_Fop_1/D Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1143 Mux_D_Flip_Fop_1/a_4_186# Mux_D_Flip_Fop_1/a_176_313# Mux_D_Flip_Fop_1/D Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1144 Mux_D_Flip_Fop_1/D Ctrl1 Mux_D_Flip_Fop_1/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1145 Mux_D_Flip_Fop_1/D Mux_D_Flip_Fop_1/a_176_313# Mux_D_Flip_Fop_1/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1146 Out1 Ctrl0 Mux_D_Flip_Fop_1/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1147 Out1 Mux_D_Flip_Fop_1/a_n6_312# Mux_D_Flip_Fop_1/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1148 Mux_D_Flip_Fop_1/a_4_29# Ctrl0 Out2 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1149 Mux_D_Flip_Fop_1/a_4_29# Mux_D_Flip_Fop_1/a_n6_312# Out2 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1150 Out3 Mux_D_Flip_Fop_0/gate_3/C Mux_D_Flip_Fop_0/gate_3/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=1000 ps=180 
+M1151 Out3 Mux_D_Flip_Fop_0/gate_2/C Mux_D_Flip_Fop_0/gate_3/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=500 ps=140 
+M1152 Mux_D_Flip_Fop_0/gate_3/C Mux_D_Flip_Fop_0/gate_2/C Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1153 Mux_D_Flip_Fop_0/gate_3/C Mux_D_Flip_Fop_0/gate_2/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1154 Mux_D_Flip_Fop_0/gate_2/C CLK Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1155 Mux_D_Flip_Fop_0/gate_2/C CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1156 Mux_D_Flip_Fop_0/gate_2/Input Mux_D_Flip_Fop_0/gate_1/C Mux_D_Flip_Fop_0/gate_1/Input Vdd pfet w=20 l=10
++ ad=1440 pd=264 as=1000 ps=180 
+M1157 Mux_D_Flip_Fop_0/gate_2/Input Mux_D_Flip_Fop_0/gate_0/C Mux_D_Flip_Fop_0/gate_1/Input Gnd nfet w=10 l=10
++ ad=720 pd=204 as=500 ps=140 
+M1158 Mux_D_Flip_Fop_0/gate_1/C Mux_D_Flip_Fop_0/gate_0/C Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1159 Mux_D_Flip_Fop_0/gate_1/C Mux_D_Flip_Fop_0/gate_0/C GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1160 Mux_D_Flip_Fop_0/gate_0/C Mux_D_Flip_Fop_0/Inverter_0/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1161 Mux_D_Flip_Fop_0/gate_0/C Mux_D_Flip_Fop_0/Inverter_0/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1162 Mux_D_Flip_Fop_0/Inverter_0/Input CLK Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1163 Mux_D_Flip_Fop_0/Inverter_0/Input CLK GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1164 Out3 Mux_D_Flip_Fop_0/Inverter_5/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1165 Out3 Mux_D_Flip_Fop_0/Inverter_5/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1166 Mux_D_Flip_Fop_0/Inverter_5/Input Mux_D_Flip_Fop_0/gate_3/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1167 Mux_D_Flip_Fop_0/Inverter_5/Input Mux_D_Flip_Fop_0/gate_3/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1168 Mux_D_Flip_Fop_0/gate_3/Input Mux_D_Flip_Fop_0/gate_2/C Mux_D_Flip_Fop_0/gate_2/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1169 Mux_D_Flip_Fop_0/gate_3/Input Mux_D_Flip_Fop_0/gate_3/C Mux_D_Flip_Fop_0/gate_2/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=0 ps=0 
+M1170 Mux_D_Flip_Fop_0/gate_2/Input Mux_D_Flip_Fop_0/Inverter_3/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1171 Mux_D_Flip_Fop_0/gate_2/Input Mux_D_Flip_Fop_0/Inverter_3/Input GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1172 Mux_D_Flip_Fop_0/Inverter_3/Input Mux_D_Flip_Fop_0/gate_1/Input Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1173 Mux_D_Flip_Fop_0/Inverter_3/Input Mux_D_Flip_Fop_0/gate_1/Input GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1174 Mux_D_Flip_Fop_0/gate_1/Input Mux_D_Flip_Fop_0/gate_0/C Mux_D_Flip_Fop_0/gate_0/Input Vdd pfet w=20 l=10
++ ad=0 pd=0 as=960 ps=176 
+M1175 Mux_D_Flip_Fop_0/gate_1/Input Mux_D_Flip_Fop_0/gate_1/C Mux_D_Flip_Fop_0/gate_0/Input Gnd nfet w=10 l=10
++ ad=0 pd=0 as=480 ps=136 
+M1176 Mux_D_Flip_Fop_0/gate_0/Input Mux_D_Flip_Fop_0/NAND_0/Output Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1177 Mux_D_Flip_Fop_0/gate_0/Input Mux_D_Flip_Fop_0/NAND_0/Output GND Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1178 Mux_D_Flip_Fop_0/NAND_0/Output Mux_D_Flip_Fop_0/NAND_0/Input1 Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1179 Mux_D_Flip_Fop_0/Vdd Mux_D_Flip_Fop_0/D Mux_D_Flip_Fop_0/NAND_0/Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1180 Mux_D_Flip_Fop_0/NAND_0/a_n42_n10# Mux_D_Flip_Fop_0/NAND_0/Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1181 Mux_D_Flip_Fop_0/NAND_0/Output Mux_D_Flip_Fop_0/D Mux_D_Flip_Fop_0/NAND_0/a_n42_n10# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1182 Mux_D_Flip_Fop_0/NAND_0/Input1 CLR Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1183 Mux_D_Flip_Fop_0/NAND_0/Input1 CLR GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1184 Mux_D_Flip_Fop_0/a_n6_312# Ctrl0 Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1185 Mux_D_Flip_Fop_0/a_176_313# Ctrl1 Mux_D_Flip_Fop_0/Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1186 Mux_D_Flip_Fop_0/a_n6_312# Ctrl0 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1187 Mux_D_Flip_Fop_0/a_176_313# Ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1188 In3 Ctrl0 Mux_D_Flip_Fop_0/a_4_186# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1189 In3 Mux_D_Flip_Fop_0/a_n6_312# Mux_D_Flip_Fop_0/a_4_186# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1190 Mux_D_Flip_Fop_0/a_4_186# Ctrl0 SR Vdd pfet w=20 l=4
++ ad=0 pd=0 as=440 ps=84 
+M1191 Mux_D_Flip_Fop_0/a_4_186# Mux_D_Flip_Fop_0/a_n6_312# SR Gnd nfet w=12 l=4
++ ad=0 pd=0 as=264 ps=68 
+M1192 Mux_D_Flip_Fop_0/a_4_186# Ctrl1 Mux_D_Flip_Fop_0/D Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1193 Mux_D_Flip_Fop_0/a_4_186# Mux_D_Flip_Fop_0/a_176_313# Mux_D_Flip_Fop_0/D Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1194 Mux_D_Flip_Fop_0/D Ctrl1 Mux_D_Flip_Fop_0/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1195 Mux_D_Flip_Fop_0/D Mux_D_Flip_Fop_0/a_176_313# Mux_D_Flip_Fop_0/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1196 Out2 Ctrl0 Mux_D_Flip_Fop_0/a_4_29# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1197 Out2 Mux_D_Flip_Fop_0/a_n6_312# Mux_D_Flip_Fop_0/a_4_29# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1198 Mux_D_Flip_Fop_0/a_4_29# Ctrl0 Out3 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1199 Mux_D_Flip_Fop_0/a_4_29# Mux_D_Flip_Fop_0/a_n6_312# Out3 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=0 ps=0 
+C0 Mux_D_Flip_Fop_0/Vdd Mux_D_Flip_Fop_0/gate_0/Input 2.8fF
+C1 Mux_D_Flip_Fop_2/gate_0/Input Mux_D_Flip_Fop_0/Vdd 2.8fF
+C2 Mux_D_Flip_Fop_0/Vdd Mux_D_Flip_Fop_1/gate_0/Input 2.8fF
+C3 Mux_D_Flip_Fop_3/gate_0/Input Mux_D_Flip_Fop_0/Vdd 2.8fF
+C4 Mux_D_Flip_Fop_0/a_4_29# gnd! 24.2fF
+C5 SR gnd! 6.4fF
+C6 Mux_D_Flip_Fop_0/a_4_186# gnd! 21.0fF
+C7 In3 gnd! 6.2fF
+C8 Mux_D_Flip_Fop_0/a_176_313# gnd! 18.3fF
+C9 Mux_D_Flip_Fop_0/a_n6_312# gnd! 29.3fF
+C10 Mux_D_Flip_Fop_0/D gnd! 32.3fF
+C11 Mux_D_Flip_Fop_0/NAND_0/Input1 gnd! 10.8fF
+C12 Mux_D_Flip_Fop_0/NAND_0/Output gnd! 9.8fF
+C13 Mux_D_Flip_Fop_0/gate_0/Input gnd! 13.0fF
+C14 Mux_D_Flip_Fop_0/gate_0/C gnd! 41.0fF
+C15 Mux_D_Flip_Fop_0/gate_1/Input gnd! 19.8fF
+C16 Mux_D_Flip_Fop_0/Inverter_3/Input gnd! 8.5fF
+C17 Mux_D_Flip_Fop_0/gate_2/Input gnd! 27.5fF
+C18 Mux_D_Flip_Fop_0/gate_2/C gnd! 40.4fF
+C19 Mux_D_Flip_Fop_0/gate_3/Input gnd! 19.5fF
+C20 Mux_D_Flip_Fop_0/Inverter_5/Input gnd! 8.8fF
+C21 Mux_D_Flip_Fop_0/Inverter_0/Input gnd! 11.8fF
+C22 Mux_D_Flip_Fop_0/gate_1/C gnd! 17.8fF
+C23 Mux_D_Flip_Fop_0/gate_3/C gnd! 18.1fF
+C24 Mux_D_Flip_Fop_1/a_4_29# gnd! 24.2fF
+C25 Out3 gnd! 143.0fF
+C26 Mux_D_Flip_Fop_1/a_4_186# gnd! 21.0fF
+C27 In2 gnd! 6.2fF
+C28 Mux_D_Flip_Fop_1/a_176_313# gnd! 18.3fF
+C29 Mux_D_Flip_Fop_1/a_n6_312# gnd! 29.3fF
+C30 Mux_D_Flip_Fop_1/D gnd! 32.3fF
+C31 Mux_D_Flip_Fop_1/NAND_0/Input1 gnd! 10.8fF
+C32 Mux_D_Flip_Fop_1/NAND_0/Output gnd! 9.8fF
+C33 Mux_D_Flip_Fop_1/gate_0/Input gnd! 13.0fF
+C34 Mux_D_Flip_Fop_1/gate_0/C gnd! 41.0fF
+C35 Mux_D_Flip_Fop_1/gate_1/Input gnd! 19.8fF
+C36 Mux_D_Flip_Fop_1/Inverter_3/Input gnd! 8.5fF
+C37 Mux_D_Flip_Fop_1/gate_2/Input gnd! 27.5fF
+C38 Mux_D_Flip_Fop_1/gate_2/C gnd! 40.4fF
+C39 Mux_D_Flip_Fop_1/gate_3/Input gnd! 19.5fF
+C40 Mux_D_Flip_Fop_1/Inverter_5/Input gnd! 8.8fF
+C41 Mux_D_Flip_Fop_1/Inverter_0/Input gnd! 11.8fF
+C42 Mux_D_Flip_Fop_1/gate_1/C gnd! 17.8fF
+C43 Mux_D_Flip_Fop_1/gate_3/C gnd! 18.1fF
+C44 Mux_D_Flip_Fop_2/a_4_29# gnd! 24.2fF
+C45 Out2 gnd! 363.8fF
+C46 Mux_D_Flip_Fop_2/a_4_186# gnd! 21.0fF
+C47 In1 gnd! 6.5fF
+C48 Mux_D_Flip_Fop_2/a_176_313# gnd! 18.3fF
+C49 Mux_D_Flip_Fop_2/a_n6_312# gnd! 29.3fF
+C50 Mux_D_Flip_Fop_2/D gnd! 32.3fF
+C51 Mux_D_Flip_Fop_2/NAND_0/Input1 gnd! 10.8fF
+C52 Mux_D_Flip_Fop_2/NAND_0/Output gnd! 9.8fF
+C53 Mux_D_Flip_Fop_2/gate_0/Input gnd! 13.0fF
+C54 Mux_D_Flip_Fop_2/gate_0/C gnd! 41.0fF
+C55 Mux_D_Flip_Fop_2/gate_1/Input gnd! 19.8fF
+C56 Mux_D_Flip_Fop_2/Inverter_3/Input gnd! 8.5fF
+C57 Mux_D_Flip_Fop_2/gate_2/Input gnd! 27.5fF
+C58 Mux_D_Flip_Fop_2/gate_2/C gnd! 40.4fF
+C59 Mux_D_Flip_Fop_2/gate_3/Input gnd! 19.5fF
+C60 Mux_D_Flip_Fop_2/Inverter_5/Input gnd! 8.8fF
+C61 Mux_D_Flip_Fop_2/Inverter_0/Input gnd! 11.8fF
+C62 Mux_D_Flip_Fop_2/gate_1/C gnd! 17.8fF
+C63 Mux_D_Flip_Fop_2/gate_3/C gnd! 18.1fF
+C64 Mux_D_Flip_Fop_3/a_4_29# gnd! 24.2fF
+C65 SL gnd! 6.4fF
+C66 Out1 gnd! 339.7fF
+C67 Mux_D_Flip_Fop_3/a_4_186# gnd! 21.0fF
+C68 In0 gnd! 6.4fF
+C69 Mux_D_Flip_Fop_3/a_176_313# gnd! 18.3fF
+C70 Mux_D_Flip_Fop_3/a_n6_312# gnd! 29.3fF
+C71 Mux_D_Flip_Fop_3/D gnd! 32.3fF
+C72 Mux_D_Flip_Fop_3/NAND_0/Input1 gnd! 10.8fF
+C73 Mux_D_Flip_Fop_0/Vdd gnd! 518.8fF
+C74 Mux_D_Flip_Fop_3/NAND_0/Output gnd! 9.8fF
+C75 Mux_D_Flip_Fop_3/gate_0/Input gnd! 13.0fF
+C76 Mux_D_Flip_Fop_3/gate_0/C gnd! 41.0fF
+C77 Mux_D_Flip_Fop_3/gate_1/Input gnd! 19.8fF
+C78 Mux_D_Flip_Fop_3/Inverter_3/Input gnd! 8.5fF
+C79 Mux_D_Flip_Fop_3/gate_2/Input gnd! 27.5fF
+C80 Mux_D_Flip_Fop_3/gate_2/C gnd! 40.4fF
+C81 Mux_D_Flip_Fop_3/gate_3/Input gnd! 19.5fF
+C82 Out0 gnd! 332.7fF
+C83 Mux_D_Flip_Fop_3/Inverter_5/Input gnd! 8.8fF
+C84 Mux_D_Flip_Fop_3/Inverter_0/Input gnd! 11.8fF
+C85 Mux_D_Flip_Fop_3/gate_1/C gnd! 17.8fF
+C86 Mux_D_Flip_Fop_3/gate_3/C gnd! 18.1fF
+
+Vgnd1 GND 0 DC 0V
+Vgnd2 gnd! 0 DC 0V
+VVdd Vdd 0 DC 2.8V
+Vin1 CLK 0 pulse(0 2.8 2ns 0.1ns 0.1ns 40ns 80ns)
+Vin2 Ctrl0 0 pulse(2.8 2.8 0ns 0.1ns 0.1ns 400ns 750ns)
+Vin3 Ctrl1 0 pulse(2.8 2.8 0ns 0.1ns 0.1ns 400ns 750ns)
+Vin4 In0 0 pulse(0 2.8 0ns 0.1ns 0.1ns 600ns 600ns)
+Vin5 In1 0 pulse(0 2.8 0ns 0.1ns 0.1ns 600ns 600ns)
+Vin6 In2 0 pulse(0 2.8 0ns 0.1ns 0.1ns 600ns 600ns)
+Vin7 In3 0 pulse(0 2.8 0ns 0.1ns 0.1ns 600ns 600ns)
+Vin12 SL 0 pulse(0 0 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin13 SR 0 pulse(2.8 2.8 0ns 0.1ns 0.1ns 750ns 750ns)
+Vin14 CLR 0 pulse(0 2.8 0ns 0.1ns 0.1ns 60ns 750ns)
+.tran 5ns 750ns
+.probe
+.end

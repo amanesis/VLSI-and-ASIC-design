@@ -1,0 +1,110 @@
+timestamp 1543680363
+version 8.0
+tech scmos
+style lambda=0.30
+scale 1000 1000 30
+resistclasses 3100 2500 7500 83 84 41 1980000
+use Register_4Bit Register_4Bit_0 1 0 103 0 1 67
+use Register_4Bit Register_4Bit_1 1 0 6334 0 1 67
+node "m1_5729_n10#" 16 57.708 5729 -10 m1 0 0 0 0 0 0 6768 2268 0 0 0 0 0 0
+node "m1_6035_196#" 0 1.86 6035 196 m1 0 0 0 0 0 0 240 68 0 0 0 0 0 0
+node "m1_6008_420#" 6 15.3332 6008 420 v 0 0 0 0 0 0 78 50 2684 888 0 0 0 0
+node "m1_4825_601#" 27 78.62 4825 601 m1 0 0 0 0 0 0 8280 3322 0 0 0 0 0 0
+node "m1_4985_625#" 27 78.5725 4985 625 m1 0 0 0 0 0 0 8275 3320 0 0 0 0 0 0
+node "CLK" 19 0.6808 626 -20 p 0 0 0 0 40 28 0 0 0 0 0 0 0 0
+node "SL" 11 1.0024 10824 168 p 0 0 0 0 70 34 0 0 0 0 0 0 0 0
+node "In0" 8 1.2168 10834 310 p 0 0 0 0 90 38 0 0 0 0 0 0 0 0
+node "In1" 8 0.457 9312 309 p 0 0 0 0 25 20 0 0 0 0 0 0 0 0
+node "In2" 9 0.3908 7789 310 p 0 0 0 0 20 18 0 0 0 0 0 0 0 0
+node "In3" 9 0.5232 6259 314 p 0 0 0 0 30 22 0 0 0 0 0 0 0 0
+node "In4" 8 1.1178 4603 311 p 0 0 0 0 81 36 0 0 0 0 0 0 0 0
+node "GND" 24 17.7553 6194 339 p 0 0 0 0 70 38 2360 576 0 0 0 0 0 0
+node "a_6077_416#" 65 17.3162 6077 416 p 0 0 0 0 292 108 569 208 1800 612 0 0 0 0
+node "Out0" 24 3.2378 12308 551 p 0 0 0 0 275 78 0 0 0 0 0 0 0 0
+node "Out1" 30 4.54 10782 574 p 0 0 0 0 400 100 0 0 0 0 0 0 0 0
+node "Out2" 53 7.756 9259 506 p 0 0 0 0 700 160 0 0 0 0 0 0 0 0
+node "Out4" 24 3.6824 6077 551 p 0 0 0 0 320 84 0 0 0 0 0 0 0 0
+node "SR" 14 1.2502 20 205 p 0 0 0 0 91 40 0 0 0 0 0 0 0 0
+node "In5" 9 0.3908 3081 310 p 0 0 0 0 20 18 0 0 0 0 0 0 0 0
+node "In6" 9 0.3908 1558 310 p 0 0 0 0 20 18 0 0 0 0 0 0 0 0
+node "In7" 10 0.7464 25 314 p 0 0 0 0 48 28 0 0 0 0 0 0 0 0
+node "a_n39_339#" 9 0.5232 -39 339 p 0 0 0 0 30 22 0 0 0 0 0 0 0 0
+node "Vdd" 31 1.5162 4320 436 p 0 0 0 0 105 52 0 0 0 0 0 0 0 0
+node "Out6" 21 3.2536 3028 506 p 0 0 0 0 280 76 0 0 0 0 0 0 0 0
+node "Out7" 28 4.2184 1506 483 p 0 0 0 0 370 94 0 0 0 0 0 0 0 0
+node "Out5" 10 1.6456 4551 574 p 0 0 0 0 130 46 0 0 0 0 0 0 0 0
+node "Ctrl1" 10 0.2748 250 606 p 0 0 0 0 12 14 0 0 0 0 0 0 0 0
+node "CLR" 15 0.3744 408 630 p 0 0 0 0 18 18 0 0 0 0 0 0 0 0
+node "Ctrl0" 529 308.437 68 546 p 0 0 0 0 878 454 31175 12480 0 0 0 0 0 0
+node "Out3" 684 242.77 4578 168 p 0 0 0 0 6344 1496 22169 6348 0 0 0 0 0 0
+cap "Out3" "Ctrl0" 0.5634
+cap "m1_4825_601#" "Ctrl0" 0.3102
+cap "m1_4985_625#" "Ctrl0" 0.3102
+cap "GND" "a_6077_416#" 0.4614
+cap "Register_4Bit_0/m1_4512_148#" "Register_4Bit_0/SL" 0.0105
+cap "Register_4Bit_0/m1_4406_128#" "Register_4Bit_0/SL" 3.4542
+cap "Register_4Bit_1/Out2" "Register_4Bit_1/SR" 0.189
+cap "Out3" "Register_4Bit_0/Mux_D_Flip_Fop_3/GND" 2.5935
+cap "Out3" "Register_4Bit_0/m1_4388_351#" 0.456
+cap "a_6077_416#" "m1_6008_420#" 0.06
+cap "Register_4Bit_1/Out2" "m1_6008_420#" 0.126
+cap "Register_4Bit_1/Ctrl0" "Register_4Bit_1/Mux_D_Flip_Fop_0/a_n32_344#" 0.024
+cap "Register_4Bit_0/Out2" "Register_4Bit_0/Out3" 0.513
+cap "Register_4Bit_0/Ctrl0" "Register_4Bit_0/Out2" 0.285
+cap "Register_4Bit_0/Ctrl0" "Out3" 0.228
+cap "Out3" "Register_4Bit_0/Out0" 0.3192
+cap "Register_4Bit_0/Out0" "m1_6008_420#" 0.03
+cap "m1_6008_420#" "Register_4Bit_1/Out2" 0.063
+cap "m1_6008_420#" "Register_4Bit_1/Ctrl0" 0.012
+cap "Register_4Bit_1/Out3" "Register_4Bit_1/Ctrl0" 0.285
+cap "Register_4Bit_1/Out3" "Register_4Bit_1/Out2" 0.513
+cap "Register_4Bit_1/Ctrl0" "Register_4Bit_1/Out2" 0.057
+cap "Register_4Bit_1/Out1" "Register_4Bit_1/Out2" 0.0912
+cap "Register_4Bit_1/Ctrl0" "Register_4Bit_1/Out2" 0.228
+cap "Register_4Bit_1/Out1" "Register_4Bit_1/Out2" 0.3648
+cap "Register_4Bit_0/Ctrl1" "Out3" 0.228
+cap "Out3" "Register_4Bit_0/CLR" 0.228
+cap "m1_4825_601#" "Register_4Bit_0/CLR" 0.171
+cap "Register_4Bit_1/CLR" "Out3" 0.3135
+cap "Register_4Bit_1/Ctrl1" "Out3" 0.3135
+cap "Register_4Bit_1/Out1" "Register_4Bit_1/Ctrl1" 0.285
+merge "Register_4Bit_0/Out1" "Out5" 0.24 0 0 0 0 60 -20 0 0 0 0 0 0 0 0
+merge "Register_4Bit_1/CLK" "Register_4Bit_0/CLK" -1.902 0 0 0 0 0 0 -192 -82 0 0 0 0 0 0
+merge "Register_4Bit_0/CLK" "CLK"
+merge "CLK" "m1_5729_n10#"
+merge "Register_4Bit_0/Out2" "Out6" -0.252 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "Register_4Bit_0/In0" "In4" -0.624 0 0 0 0 -30 -30 0 0 0 0 0 0 0 0
+merge "Register_4Bit_1/GND" "Register_4Bit_0/Mux_D_Flip_Fop_3/m1_1410_155#" -8.4885 0 0 0 0 -50 -30 -618 -263 0 0 0 0 0 0
+merge "Register_4Bit_0/Mux_D_Flip_Fop_3/m1_1410_155#" "Register_4Bit_0/Mux_D_Flip_Fop_3/GND"
+merge "Register_4Bit_0/Mux_D_Flip_Fop_3/GND" "m1_6035_196#"
+merge "m1_6035_196#" "GND"
+merge "Register_4Bit_0/Out3" "Out7" -0.006 0 0 0 0 30 -20 0 0 0 0 0 0 0 0
+merge "Register_4Bit_0/In1" "In5" -0.126 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "Register_4Bit_0/In2" "In6" -0.126 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "Register_4Bit_1/Mux_D_Flip_Fop_0/a_n32_344#" "Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_5/Vdd" -6.643 0 0 0 0 0 0 -78 -50 -862 -362 0 0 0 0
+merge "Register_4Bit_0/Mux_D_Flip_Fop_3/Inverter_5/Vdd" "m1_6008_420#"
+merge "Register_4Bit_0/In3" "In7" -0.1512 0 0 0 0 0 -12 0 0 0 0 0 0 0 0
+merge "Register_4Bit_0/Out0" "Register_4Bit_1/SR" -0.252 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "Register_4Bit_1/SR" "a_6077_416#"
+merge "a_6077_416#" "Out4"
+merge "Register_4Bit_0/GND" "a_n39_339#" -0.126 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "Register_4Bit_1/CLR" "Register_4Bit_0/CLR" -9.8175 0 0 0 0 0 0 -1000 -420 0 0 0 0 0 0
+merge "Register_4Bit_0/CLR" "CLR"
+merge "CLR" "m1_4985_625#"
+merge "Register_4Bit_0/Mux_D_Flip_Fop_2/Vdd" "Vdd" -0.126 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "Register_4Bit_1/Out3" "Register_4Bit_0/SL" -40.24 0 0 0 0 -3529 -897 0 0 0 0 0 0 0 0
+merge "Register_4Bit_0/SL" "Out3"
+merge "Register_4Bit_1/In0" "In0" -0.624 0 0 0 0 -30 -30 0 0 0 0 0 0 0 0
+merge "Register_4Bit_1/In1" "In1" -0.126 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "Register_4Bit_1/In2" "In2" -0.126 0 0 0 0 0 -10 0 0 0 0 0 0 0 0
+merge "Register_4Bit_1/In3" "In3" -0.0036 0 0 0 0 18 -12 0 0 0 0 0 0 0 0
+merge "Register_4Bit_0/SR" "SR" -0.1764 0 0 0 0 0 -14 0 0 0 0 0 0 0 0
+merge "Register_4Bit_1/SL" "SL" -0.1764 0 0 0 0 0 -14 0 0 0 0 0 0 0 0
+merge "Register_4Bit_1/Ctrl0" "Register_4Bit_0/Ctrl0" -0.2016 0 0 0 0 0 -16 0 0 0 0 0 0 0 0
+merge "Register_4Bit_0/Ctrl0" "Ctrl0"
+merge "Register_4Bit_1/Ctrl1" "Register_4Bit_0/Ctrl1" -14.55 0 0 0 0 0 0 -1500 -620 0 0 0 0 0 0
+merge "Register_4Bit_0/Ctrl1" "Ctrl1"
+merge "Ctrl1" "m1_4825_601#"
+merge "Register_4Bit_1/Out0" "Out0" -0.252 0 0 0 0 0 -20 0 0 0 0 0 0 0 0
+merge "Register_4Bit_1/Out1" "Out1" 0.24 0 0 0 0 60 -20 0 0 0 0 0 0 0 0
+merge "Register_4Bit_1/Out2" "Out2" 0.076 0 0 0 0 40 -20 0 0 0 0 0 0 0 0

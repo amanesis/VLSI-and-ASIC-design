@@ -1,0 +1,52 @@
+* SPICE3 file created from Half_Adder.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 a_12_258# Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=2960 ps=616 
+M1001 Vdd Input2 a_12_258# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1002 Cout a_12_258# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1003 a_12_224# Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=1480 ps=456 
+M1004 a_12_258# Input2 a_12_224# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1005 Cout a_12_258# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1006 a_12_104# Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1007 Vdd Input2 a_12_104# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1008 a_152_68# a_12_104# Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1009 a_12_70# Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1010 a_12_104# Input2 a_12_70# Gnd nfet w=10 l=4
++ ad=160 pd=52 as=0 ps=0 
+M1011 a_152_68# a_12_104# GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1012 a_12_4# Input1 Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1013 a_12_n30# Input2 a_12_4# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1014 a_160_2# a_12_n30# Vdd Vdd pfet w=20 l=4
++ ad=1280 pd=168 as=0 ps=0 
+M1015 Sum a_152_68# a_160_2# Vdd pfet w=20 l=4
++ ad=320 pd=72 as=0 ps=0 
+M1016 a_12_n30# Input1 GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1017 GND Input2 a_12_n30# Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+M1018 Sum a_12_n30# GND Gnd nfet w=10 l=4
++ ad=640 pd=148 as=0 ps=0 
+M1019 GND a_152_68# Sum Gnd nfet w=10 l=4
++ ad=0 pd=0 as=0 ps=0 
+C0 Sum gnd! 10.0fF
+C1 a_12_n30# gnd! 13.8fF
+C2 a_152_68# gnd! 13.6fF
+C3 a_12_104# gnd! 12.1fF
+C4 a_12_258# gnd! 14.8fF
+C5 Vdd gnd! 68.5fF
+C6 Input2 gnd! 17.1fF
+C7 Input1 gnd! 17.1fF

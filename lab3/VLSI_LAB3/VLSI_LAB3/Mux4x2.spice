@@ -1,0 +1,46 @@
+* SPICE3 file created from Mux4x2.ext - technology: scmos
+
+.option scale=0.3u
+
+M1000 a_18_161# Ctrl1 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=880 ps=168 
+M1001 a_200_162# Ctrl2 Vdd Vdd pfet w=20 l=4
++ ad=440 pd=84 as=0 ps=0 
+M1002 a_18_161# Ctrl1 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=440 ps=128 
+M1003 a_200_162# Ctrl2 GND Gnd nfet w=10 l=4
++ ad=220 pd=64 as=0 ps=0 
+M1004 Input1 Ctrl1 a_28_35# Gnd nfet w=12 l=4
++ ad=264 pd=68 as=792 ps=204 
+M1005 Input1 a_18_161# a_28_35# Vdd pfet w=20 l=4
++ ad=440 pd=84 as=1320 ps=252 
+M1006 a_28_35# Ctrl1 Input2 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=440 ps=84 
+M1007 a_28_35# a_18_161# Input2 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=264 ps=68 
+M1008 a_28_35# Ctrl2 Output Gnd nfet w=12 l=4
++ ad=0 pd=0 as=528 ps=136 
+M1009 a_28_35# a_200_162# Output Vdd pfet w=20 l=4
++ ad=0 pd=0 as=880 ps=168 
+M1010 Output Ctrl2 a_28_n122# Vdd pfet w=20 l=4
++ ad=0 pd=0 as=1320 ps=252 
+M1011 Output a_200_162# a_28_n122# Gnd nfet w=12 l=4
++ ad=0 pd=0 as=792 ps=204 
+M1012 Input3 Ctrl1 a_28_n122# Gnd nfet w=12 l=4
++ ad=276 pd=70 as=0 ps=0 
+M1013 Input3 a_18_161# a_28_n122# Vdd pfet w=20 l=4
++ ad=460 pd=86 as=0 ps=0 
+M1014 a_28_n122# Ctrl1 Input4 Vdd pfet w=20 l=4
++ ad=0 pd=0 as=420 ps=82 
+M1015 a_28_n122# a_18_161# Input4 Gnd nfet w=12 l=4
++ ad=0 pd=0 as=252 ps=66 
+C0 Input4 gnd! 5.2fF
+C1 a_28_n122# gnd! 24.2fF
+C2 Input3 gnd! 4.9fF
+C3 Input2 gnd! 5.1fF
+C4 Output gnd! 8.7fF
+C5 a_28_35# gnd! 21.0fF
+C6 Input1 gnd! 5.0fF
+C7 a_200_162# gnd! 17.8fF
+C8 a_18_161# gnd! 29.3fF
+C9 Vdd gnd! 13.1fF

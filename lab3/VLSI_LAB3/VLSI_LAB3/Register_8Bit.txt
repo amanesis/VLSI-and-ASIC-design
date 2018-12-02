@@ -1,0 +1,331 @@
+h Vdd
+l GND
+vector Out Out7 Out6 Out5 Out4 Out3 Out2 Out1 Out0
+vector IN In7 In6 In5 In4 In3 In2 In1 In0
+vector Ctrl Ctrl1 Ctrl0
+ana CLK CLR Ctrl IN SL SR Out
+l CLK
+h CLR
+setvector Ctrl 00
+setvector IN 00000000
+l SL
+l SR
+s
+h CLK
+h CLR
+setvector Ctrl 00
+setvector IN 00000000
+l SL
+l SR
+s
+l CLK
+h CLR
+setvector Ctrl 00
+setvector IN 00000000
+l SL
+l SR
+s
+h CLK
+h CLR
+setvector Ctrl 00
+setvector IN 00000000
+l SL
+l SR
+s
+l CLK
+l CLR
+setvector Ctrl 11
+setvector IN 00000000
+l SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 11
+setvector IN 11111111
+l SL
+l SR
+s
+l CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+l CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+l CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+l CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+l CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+l CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+l CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+l CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 01
+setvector IN 11111111
+h SL
+l SR
+s
+l CLK
+l CLR
+setvector Ctrl 11
+setvector IN 10101010
+l SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 11
+setvector IN 10101010
+l SL
+l SR
+s
+l CLK
+l CLR
+setvector Ctrl 10
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 10
+setvector IN 10101010
+l SL
+h SR
+s
+l CLK
+l CLR
+setvector Ctrl 10
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 10
+setvector IN 10101010
+l SL
+h SR
+s
+l CLK
+l CLR
+setvector Ctrl 10
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 10
+setvector IN 10101010
+l SL
+h SR
+s
+l CLK
+l CLR
+setvector Ctrl 10
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 10
+setvector IN 10101010
+l SL
+h SR
+s
+l CLK
+l CLR
+setvector Ctrl 10
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 10
+setvector IN 10101010
+l SL
+h SR
+s
+l CLK
+l CLR
+setvector Ctrl 10
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 10
+setvector IN 10101010
+l SL
+h SR
+s
+l CLK
+l CLR
+setvector Ctrl 10
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 10
+setvector IN 10101010
+l SL
+h SR
+s
+l CLK
+l CLR
+setvector Ctrl 10
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 10
+setvector IN 10101010
+l SL
+h SR
+s
+l CLK
+l CLR
+setvector Ctrl 10
+setvector IN 11111111
+h SL
+l SR
+s
+h CLK
+l CLR
+setvector Ctrl 10
+setvector IN 10101010
+l SL
+h SR
+s
+l CLK
+l CLR
+setvector Ctrl 00
+setvector IN 10101010
+l SL
+h SR
+s
+h CLK
+l CLR
+setvector Ctrl 00
+setvector IN 10101010
+l SL
+h SR
+s
+l CLK
+h CLR
+setvector Ctrl 00
+setvector IN 10101010
+l SL
+h SR
+s
+h CLK
+h CLR
+setvector Ctrl 00
+setvector IN 10101010
+l SL
+h SR
+s
+s
+stepsize 2
+s

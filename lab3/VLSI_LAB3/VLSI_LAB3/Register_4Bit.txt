@@ -1,0 +1,38 @@
+h Vdd
+l GND
+ana In3 In2 In1 In0 SR SL CLK Ctrl0 Ctrl1 Out3 Out2 Out1 Out0 CLR
+h Ctrl0
+h Ctrl1
+h In3
+h In2
+h In1
+h In0
+l CLK
+h CLR
+s
+l Ctrl0
+h Ctrl1
+l SR
+l SL
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h CLK
+s
+l CLK
+s
+h CLK
+s

@@ -1,0 +1,36 @@
+| units: 30 tech: scmos format: MIT
+p Ctrl1 Vdd a_18_161# 4 20 14 193
+p Ctrl2 Vdd a_200_162# 4 20 196 194
+n Ctrl1 GND a_18_161# 4 10 14 161
+n Ctrl2 GND a_200_162# 4 10 196 162
+n Ctrl1 a_28_35# Input1 4 12 28 107
+p a_18_161# a_28_35# Input1 4 20 66 107
+p Ctrl1 Input2 a_28_35# 4 20 28 31
+n a_18_161# Input2 a_28_35# 4 12 72 31
+n Ctrl2 Output a_28_35# 4 12 210 108
+p a_200_162# Output a_28_35# 4 20 248 108
+p Ctrl2 a_28_n122# Output 4 20 210 32
+n a_200_162# a_28_n122# Output 4 12 254 32
+n Ctrl1 a_28_n122# Input3 4 12 28 -40
+p a_18_161# a_28_n122# Input3 4 20 66 -40
+p Ctrl1 Input4 a_28_n122# 4 20 28 -126
+n a_18_161# Input4 a_28_n122# 4 12 74 -126
+C Input4 GND 5.2
+C a_28_n122# GND 24.2
+R a_28_n122# 63
+C Input3 GND 4.9
+C Input2 GND 5.1
+C Output GND 8.7
+R Output 37
+C a_28_35# GND 21.0
+R a_28_35# 62
+C Input1 GND 5.0
+R GND 25
+C a_200_162# GND 17.8
+R a_200_162# 444
+C a_18_161# GND 29.3
+R a_18_161# 854
+C Vdd GND 13.1
+R Vdd 17
+R Ctrl2 460
+R Ctrl1 868
